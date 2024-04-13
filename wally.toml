@@ -7,3 +7,4 @@ realm = "shared"
 [dependencies]
 Signal = "sleitnick/signal@^1"
 TableUtil = "sleitnick/table-util@^1"
+Observers = "sleitnick/observers@^0.3.3"
