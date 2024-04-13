@@ -46,3 +46,14 @@ print(CollectionService:GetTags(instance0)) --> {"Tag_A", "Tag_B"}
 CollectionService:RemoveTag(instance0, "Tag_A")
 
 print(CollectionService:GetTags(instance0)) --> {"Tag_B"}
+
+
+-- :HasTag()
+-- Returns bool depending on whether the given tag is present or now
+CollectionService:AddTag(instance0, "Tag_B")
+
+if CollectionService:HasTag(instance0, "Tag_B") then
+  print("Tag B is present")
+else
+  print("Tag B is NOT present")
+end
