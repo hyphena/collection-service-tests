@@ -57,3 +57,17 @@ if CollectionService:HasTag(instance0, "Tag_B") then
 else
   print("Tag B is NOT present")
 end
+
+
+-- :GetInstanceAddedSignal() and :GetInstanceRemovedSignal()
+-- Fire callback function when an instance is given/removed a specific tag
+CollectionService:GetInstanceAddedSignal("Tag_A"):Connect(function(instance)
+  print(instance.Name.." marked as Tag_A")
+end)
+
+CollectionService:GetInstanceRemovedSignal("Tag_A"):Connect(function(instance)
+  print(instance.Name.." unmarked as Tag_A") 
+end)
+
+CollectionService:AddTag(instance0, "Tag_A") --> "instance0 marked as Tag_A"
+CollectionService:RemoveTag(instance0, "Tag_A") --> "instance0 unmarked as Tag_A"
