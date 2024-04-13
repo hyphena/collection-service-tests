@@ -1442,7 +1442,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<bool name="Disabled">false</bool>
+					<bool name="Disabled">true</bool>
 					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">CollectionServiceTests</string>
@@ -1554,6 +1554,38 @@ end]]></ProtectedString>
 					<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a9000049c1</UniqueId>
 				</Properties>
 			</Item>
+			<Item class="Script" referent="RBXAD883CBDE2DC42DDBF3E62D0B8BF0AB0">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Disabled">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">RbxUtilsExample</string>
+					<token name="RunContext">0</token>
+					<string name="ScriptGuid">{DC8CA6DE-DF80-4503-8AAD-2E77F1CC74CA}</string>
+					<ProtectedString name="Source"><![CDATA[-- Reference folder with packages
+local Packages = game:GetService("ReplicatedStorage").Packages
+
+-- Require the utility modules
+local Signal = require(Packages.Signal)
+local TableUtil = require(Packages.TableUtil)
+
+-- Use the modules
+local signal = Signal.new()
+
+signal:Connect(function(data)
+  local randomizedData = TableUtil.Shuffle(data)
+  print(randomizedData)
+end)
+
+signal:Fire({"A", "B", "C"})]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004c2d</UniqueId>
+				</Properties>
+			</Item>
 		</Item>
 	</Item>
 	<Item class="ServerStorage" referent="RBXB843735163894020ACD9FAF59241140E">
@@ -1590,6 +1622,2132 @@ end]]></ProtectedString>
 				<BinaryString name="Tags"></BinaryString>
 				<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900003dcc</UniqueId>
 			</Properties>
+		</Item>
+		<Item class="Folder" referent="RBX63ACD388DAE5418AB58B57DB0B1F1739">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<string name="Name">Packages</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004bdf</UniqueId>
+			</Properties>
+			<Item class="ModuleScript" referent="RBX7A0DD345CDEE4C1F9970930F6B26599A">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Signal</string>
+					<string name="ScriptGuid">{4761C440-27AE-44A1-91EA-3C6F7A81F61B}</string>
+					<ProtectedString name="Source">return require(script.Parent._Index[&quot;sleitnick_signal@1.5.0&quot;][&quot;signal&quot;])</ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be0</UniqueId>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXB9DFB8E17DA343EEBBB3203C102C41F7">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">TableUtil</string>
+					<string name="ScriptGuid">{8E9A257A-D771-4FA9-95B5-3252B50498C5}</string>
+					<ProtectedString name="Source">return require(script.Parent._Index[&quot;sleitnick_table-util@1.2.1&quot;][&quot;table-util&quot;])</ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be1</UniqueId>
+				</Properties>
+			</Item>
+			<Item class="Folder" referent="RBX12AB9501376E468DBD1F100E459B983E">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<string name="Name">_Index</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be2</UniqueId>
+				</Properties>
+				<Item class="Folder" referent="RBX9FD22E8E048742439DEC9DA2B0E5B486">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+						<string name="Name">sleitnick_signal@1.5.0</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be3</UniqueId>
+					</Properties>
+					<Item class="ModuleScript" referent="RBX79484B61E49B41919B47FC4F047C981C">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">signal</string>
+							<string name="ScriptGuid">{2722996E-4070-43F1-AC8F-C95B35F146BD}</string>
+							<ProtectedString name="Source"><![CDATA[-- -----------------------------------------------------------------------------
+--               Batched Yield-Safe Signal Implementation                     --
+-- This is a Signal class which has effectively identical behavior to a       --
+-- normal RBXScriptSignal, with the only difference being a couple extra      --
+-- stack frames at the bottom of the stack trace when an error is thrown.     --
+-- This implementation caches runner coroutines, so the ability to yield in   --
+-- the signal handlers comes at minimal extra cost over a naive signal        --
+-- implementation that either always or never spawns a thread.                --
+--                                                                            --
+-- API:                                                                       --
+--   local Signal = require(THIS MODULE)                                      --
+--   local sig = Signal.new()                                                 --
+--   local connection = sig:Connect(function(arg1, arg2, ...) ... end)        --
+--   sig:Fire(arg1, arg2, ...)                                                --
+--   connection:Disconnect()                                                  --
+--   sig:DisconnectAll()                                                      --
+--   local arg1, arg2, ... = sig:Wait()                                       --
+--                                                                            --
+-- License:                                                                   --
+--   Licensed under the MIT license.                                          --
+--                                                                            --
+-- Authors:                                                                   --
+--   stravant - July 31st, 2021 - Created the file.                           --
+--   sleitnick - August 3rd, 2021 - Modified for Knit.                        --
+-- -----------------------------------------------------------------------------
+
+-- Signal types
+export type Connection = {
+	Disconnect: (self: Connection) -> (),
+	Destroy: (self: Connection) -> (),
+	Connected: boolean,
+}
+
+export type Signal<T...> = {
+	Fire: (self: Signal<T...>, T...) -> (),
+	FireDeferred: (self: Signal<T...>, T...) -> (),
+	Connect: (self: Signal<T...>, fn: (T...) -> ()) -> Connection,
+	Once: (self: Signal<T...>, fn: (T...) -> ()) -> Connection,
+	DisconnectAll: (self: Signal<T...>) -> (),
+	GetConnections: (self: Signal<T...>) -> { Connection },
+	Destroy: (self: Signal<T...>) -> (),
+	Wait: (self: Signal<T...>) -> T...,
+}
+
+-- The currently idle thread to run the next handler on
+local freeRunnerThread = nil
+
+-- Function which acquires the currently idle handler runner thread, runs the
+-- function fn on it, and then releases the thread, returning it to being the
+-- currently idle one.
+-- If there was a currently idle runner thread already, that's okay, that old
+-- one will just get thrown and eventually GCed.
+local function acquireRunnerThreadAndCallEventHandler(fn, ...)
+	local acquiredRunnerThread = freeRunnerThread
+	freeRunnerThread = nil
+	fn(...)
+	-- The handler finished running, this runner thread is free again.
+	freeRunnerThread = acquiredRunnerThread
+end
+
+-- Coroutine runner that we create coroutines of. The coroutine can be
+-- repeatedly resumed with functions to run followed by the argument to run
+-- them with.
+local function runEventHandlerInFreeThread(...)
+	acquireRunnerThreadAndCallEventHandler(...)
+	while true do
+		acquireRunnerThreadAndCallEventHandler(coroutine.yield())
+	end
+end
+
+--[=[
+	@within Signal
+	@interface SignalConnection
+	.Connected boolean
+	.Disconnect (SignalConnection) -> ()
+
+	Represents a connection to a signal.
+	```lua
+	local connection = signal:Connect(function() end)
+	print(connection.Connected) --> true
+	connection:Disconnect()
+	print(connection.Connected) --> false
+	```
+]=]
+
+-- Connection class
+local Connection = {}
+Connection.__index = Connection
+
+function Connection.new(signal, fn)
+	return setmetatable({
+		Connected = true,
+		_signal = signal,
+		_fn = fn,
+		_next = false,
+	}, Connection)
+end
+
+function Connection:Disconnect()
+	if not self.Connected then
+		return
+	end
+	self.Connected = false
+
+	-- Unhook the node, but DON'T clear it. That way any fire calls that are
+	-- currently sitting on this node will be able to iterate forwards off of
+	-- it, but any subsequent fire calls will not hit it, and it will be GCed
+	-- when no more fire calls are sitting on it.
+	if self._signal._handlerListHead == self then
+		self._signal._handlerListHead = self._next
+	else
+		local prev = self._signal._handlerListHead
+		while prev and prev._next ~= self do
+			prev = prev._next
+		end
+		if prev then
+			prev._next = self._next
+		end
+	end
+end
+
+Connection.Destroy = Connection.Disconnect
+
+-- Make Connection strict
+setmetatable(Connection, {
+	__index = function(_tb, key)
+		error(("Attempt to get Connection::%s (not a valid member)"):format(tostring(key)), 2)
+	end,
+	__newindex = function(_tb, key, _value)
+		error(("Attempt to set Connection::%s (not a valid member)"):format(tostring(key)), 2)
+	end,
+})
+
+--[=[
+	@within Signal
+	@type ConnectionFn (...any) -> ()
+
+	A function connected to a signal.
+]=]
+
+--[=[
+	@class Signal
+
+	Signals allow events to be dispatched and handled.
+
+	For example:
+	```lua
+	local signal = Signal.new()
+
+	signal:Connect(function(msg)
+		print("Got message:", msg)
+	end)
+
+	signal:Fire("Hello world!")
+	```
+]=]
+local Signal = {}
+Signal.__index = Signal
+
+--[=[
+	Constructs a new Signal
+
+	@return Signal
+]=]
+function Signal.new<T...>(): Signal<T...>
+	local self = setmetatable({
+		_handlerListHead = false,
+		_proxyHandler = nil,
+	}, Signal)
+	return self
+end
+
+--[=[
+	Constructs a new Signal that wraps around an RBXScriptSignal.
+
+	@param rbxScriptSignal RBXScriptSignal -- Existing RBXScriptSignal to wrap
+	@return Signal
+
+	For example:
+	```lua
+	local signal = Signal.Wrap(workspace.ChildAdded)
+	signal:Connect(function(part) print(part.Name .. " added") end)
+	Instance.new("Part").Parent = workspace
+	```
+]=]
+function Signal.Wrap<T...>(rbxScriptSignal: RBXScriptSignal): Signal<T...>
+	assert(
+		typeof(rbxScriptSignal) == "RBXScriptSignal",
+		"Argument #1 to Signal.Wrap must be a RBXScriptSignal; got " .. typeof(rbxScriptSignal)
+	)
+	local signal = Signal.new()
+	signal._proxyHandler = rbxScriptSignal:Connect(function(...)
+		signal:Fire(...)
+	end)
+	return signal
+end
+
+--[=[
+	Checks if the given object is a Signal.
+
+	@param obj any -- Object to check
+	@return boolean -- `true` if the object is a Signal.
+]=]
+function Signal.Is(obj: any): boolean
+	return type(obj) == "table" and getmetatable(obj) == Signal
+end
+
+--[=[
+	@param fn ConnectionFn
+	@return SignalConnection
+
+	Connects a function to the signal, which will be called anytime the signal is fired.
+	```lua
+	signal:Connect(function(msg, num)
+		print(msg, num)
+	end)
+
+	signal:Fire("Hello", 25)
+	```
+]=]
+function Signal:Connect(fn)
+	local connection = Connection.new(self, fn)
+	if self._handlerListHead then
+		connection._next = self._handlerListHead
+		self._handlerListHead = connection
+	else
+		self._handlerListHead = connection
+	end
+	return connection
+end
+
+--[=[
+	@deprecated v1.3.0 -- Use `Signal:Once` instead.
+	@param fn ConnectionFn
+	@return SignalConnection
+]=]
+function Signal:ConnectOnce(fn)
+	return self:Once(fn)
+end
+
+--[=[
+	@param fn ConnectionFn
+	@return SignalConnection
+
+	Connects a function to the signal, which will be called the next time the signal fires. Once
+	the connection is triggered, it will disconnect itself.
+	```lua
+	signal:Once(function(msg, num)
+		print(msg, num)
+	end)
+
+	signal:Fire("Hello", 25)
+	signal:Fire("This message will not go through", 10)
+	```
+]=]
+function Signal:Once(fn)
+	local connection
+	local done = false
+	connection = self:Connect(function(...)
+		if done then
+			return
+		end
+		done = true
+		connection:Disconnect()
+		fn(...)
+	end)
+	return connection
+end
+
+function Signal:GetConnections()
+	local items = {}
+	local item = self._handlerListHead
+	while item do
+		table.insert(items, item)
+		item = item._next
+	end
+	return items
+end
+
+-- Disconnect all handlers. Since we use a linked list it suffices to clear the
+-- reference to the head handler.
+--[=[
+	Disconnects all connections from the signal.
+	```lua
+	signal:DisconnectAll()
+	```
+]=]
+function Signal:DisconnectAll()
+	local item = self._handlerListHead
+	while item do
+		item.Connected = false
+		item = item._next
+	end
+	self._handlerListHead = false
+end
+
+-- Signal:Fire(...) implemented by running the handler functions on the
+-- coRunnerThread, and any time the resulting thread yielded without returning
+-- to us, that means that it yielded to the Roblox scheduler and has been taken
+-- over by Roblox scheduling, meaning we have to make a new coroutine runner.
+--[=[
+	@param ... any
+
+	Fire the signal, which will call all of the connected functions with the given arguments.
+	```lua
+	signal:Fire("Hello")
+
+	-- Any number of arguments can be fired:
+	signal:Fire("Hello", 32, {Test = "Test"}, true)
+	```
+]=]
+function Signal:Fire(...)
+	local item = self._handlerListHead
+	while item do
+		if item.Connected then
+			if not freeRunnerThread then
+				freeRunnerThread = coroutine.create(runEventHandlerInFreeThread)
+			end
+			task.spawn(freeRunnerThread, item._fn, ...)
+		end
+		item = item._next
+	end
+end
+
+--[=[
+	@param ... any
+
+	Same as `Fire`, but uses `task.defer` internally & doesn't take advantage of thread reuse.
+	```lua
+	signal:FireDeferred("Hello")
+	```
+]=]
+function Signal:FireDeferred(...)
+	local item = self._handlerListHead
+	while item do
+		task.defer(item._fn, ...)
+		item = item._next
+	end
+end
+
+--[=[
+	@return ... any
+	@yields
+
+	Yields the current thread until the signal is fired, and returns the arguments fired from the signal.
+	Yielding the current thread is not always desirable. If the desire is to only capture the next event
+	fired, using `Once` might be a better solution.
+	```lua
+	task.spawn(function()
+		local msg, num = signal:Wait()
+		print(msg, num) --> "Hello", 32
+	end)
+	signal:Fire("Hello", 32)
+	```
+]=]
+function Signal:Wait()
+	local waitingCoroutine = coroutine.running()
+	local connection
+	local done = false
+	connection = self:Connect(function(...)
+		if done then
+			return
+		end
+		done = true
+		connection:Disconnect()
+		task.spawn(waitingCoroutine, ...)
+	end)
+	return coroutine.yield()
+end
+
+--[=[
+	Cleans up the signal.
+
+	Technically, this is only necessary if the signal is created using
+	`Signal.Wrap`. Connections should be properly GC'd once the signal
+	is no longer referenced anywhere. However, it is still good practice
+	to include ways to strictly clean up resources. Calling `Destroy`
+	on a signal will also disconnect all connections immediately.
+	```lua
+	signal:Destroy()
+	```
+]=]
+function Signal:Destroy()
+	self:DisconnectAll()
+	local proxyHandler = rawget(self, "_proxyHandler")
+	if proxyHandler then
+		proxyHandler:Disconnect()
+	end
+end
+
+-- Make signal strict
+setmetatable(Signal, {
+	__index = function(_tb, key)
+		error(("Attempt to get Signal::%s (not a valid member)"):format(tostring(key)), 2)
+	end,
+	__newindex = function(_tb, key, _value)
+		error(("Attempt to set Signal::%s (not a valid member)"):format(tostring(key)), 2)
+	end,
+})
+
+return {
+	new = Signal.new,
+	Wrap = Signal.Wrap,
+	Is = Signal.Is,
+}]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be4</UniqueId>
+						</Properties>
+						<Item class="ModuleScript" referent="RBXD867190C813B470082728F664EFFBD69">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">init.spec</string>
+								<string name="ScriptGuid">{29082131-072A-48D9-B973-910976AF5A54}</string>
+								<ProtectedString name="Source"><![CDATA[local function AwaitCondition(predicate, timeout)
+	local start = os.clock()
+	timeout = (timeout or 10)
+	while true do
+		if predicate() then
+			return true
+		end
+		if (os.clock() - start) > timeout then
+			return false
+		end
+		task.wait()
+	end
+end
+
+return function()
+	local Signal = require(script.Parent)
+
+	local signal
+
+	local function NumConns(sig)
+		sig = sig or signal
+		return #sig:GetConnections()
+	end
+
+	beforeEach(function()
+		signal = Signal.new()
+	end)
+
+	afterEach(function()
+		signal:Destroy()
+	end)
+
+	describe("Constructor", function()
+		it("should create a new signal and fire it", function()
+			expect(Signal.Is(signal)).to.equal(true)
+			task.defer(function()
+				signal:Fire(10, 20)
+			end)
+			local n1, n2 = signal:Wait()
+			expect(n1).to.equal(10)
+			expect(n2).to.equal(20)
+		end)
+
+		it("should create a proxy signal and connect to it", function()
+			local signalWrap = Signal.Wrap(game:GetService("RunService").Heartbeat)
+			expect(Signal.Is(signalWrap)).to.equal(true)
+			local fired = false
+			signalWrap:Connect(function()
+				fired = true
+			end)
+			expect(AwaitCondition(function()
+				return fired
+			end, 2)).to.equal(true)
+			signalWrap:Destroy()
+		end)
+	end)
+
+	describe("FireDeferred", function()
+		it("should be able to fire primitive argument", function()
+			local send = 10
+			local value
+			signal:Connect(function(v)
+				value = v
+			end)
+			signal:FireDeferred(send)
+			expect(AwaitCondition(function()
+				return (send == value)
+			end, 1)).to.equal(true)
+		end)
+
+		it("should be able to fire a reference based argument", function()
+			local send = { 10, 20 }
+			local value
+			signal:Connect(function(v)
+				value = v
+			end)
+			signal:FireDeferred(send)
+			expect(AwaitCondition(function()
+				return (send == value)
+			end, 1)).to.equal(true)
+		end)
+	end)
+
+	describe("Fire", function()
+		it("should be able to fire primitive argument", function()
+			local send = 10
+			local value
+			signal:Connect(function(v)
+				value = v
+			end)
+			signal:Fire(send)
+			expect(value).to.equal(send)
+		end)
+
+		it("should be able to fire a reference based argument", function()
+			local send = { 10, 20 }
+			local value
+			signal:Connect(function(v)
+				value = v
+			end)
+			signal:Fire(send)
+			expect(value).to.equal(send)
+		end)
+	end)
+
+	describe("ConnectOnce", function()
+		it("should only capture first fire", function()
+			local value
+			local c = signal:ConnectOnce(function(v)
+				value = v
+			end)
+			expect(c.Connected).to.equal(true)
+			signal:Fire(10)
+			expect(c.Connected).to.equal(false)
+			signal:Fire(20)
+			expect(value).to.equal(10)
+		end)
+	end)
+
+	describe("Wait", function()
+		it("should be able to wait for a signal to fire", function()
+			task.defer(function()
+				signal:Fire(10, 20, 30)
+			end)
+			local n1, n2, n3 = signal:Wait()
+			expect(n1).to.equal(10)
+			expect(n2).to.equal(20)
+			expect(n3).to.equal(30)
+		end)
+	end)
+
+	describe("DisconnectAll", function()
+		it("should disconnect all connections", function()
+			signal:Connect(function() end)
+			signal:Connect(function() end)
+			expect(NumConns()).to.equal(2)
+			signal:DisconnectAll()
+			expect(NumConns()).to.equal(0)
+		end)
+	end)
+
+	describe("Disconnect", function()
+		it("should disconnect connection", function()
+			local con = signal:Connect(function() end)
+			expect(NumConns()).to.equal(1)
+			con:Disconnect()
+			expect(NumConns()).to.equal(0)
+		end)
+
+		it("should still work if connections disconnected while firing", function()
+			local a = 0
+			local c
+			signal:Connect(function()
+				a += 1
+			end)
+			c = signal:Connect(function()
+				c:Disconnect()
+				a += 1
+			end)
+			signal:Connect(function()
+				a += 1
+			end)
+			signal:Fire()
+			expect(a).to.equal(3)
+		end)
+
+		it("should still work if connections disconnected while firing deferred", function()
+			local a = 0
+			local c
+			signal:Connect(function()
+				a += 1
+			end)
+			c = signal:Connect(function()
+				c:Disconnect()
+				a += 1
+			end)
+			signal:Connect(function()
+				a += 1
+			end)
+			signal:FireDeferred()
+			expect(AwaitCondition(function()
+				return a == 3
+			end)).to.equal(true)
+		end)
+	end)
+end]]></ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be5</UniqueId>
+							</Properties>
+						</Item>
+						<Item class="ModuleScript" referent="RBXD78381A4DA24498E8DEA49DA55BE59DA">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">wally</string>
+								<string name="ScriptGuid">{B6DB6E36-F6C2-4FB4-9859-4715912A4294}</string>
+								<ProtectedString name="Source"><![CDATA[return {
+	package = {
+		authors = {"Stephen Leitnick"},
+		description = "Signal class",
+		license = "MIT",
+		name = "sleitnick/signal",
+		realm = "shared",
+		registry = "https://github.com/UpliftGames/wally-index",
+		version = "1.5.0",
+	},
+}]]></ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be6</UniqueId>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+				<Item class="Folder" referent="RBX47ECB747B3884A9E87A9A30D06F989DD">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+						<string name="Name">sleitnick_table-util@1.2.1</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be7</UniqueId>
+					</Properties>
+					<Item class="ModuleScript" referent="RBX4411577405834E129E527FE3EEB83F14">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">table-util</string>
+							<string name="ScriptGuid">{B8619AFC-9FC7-4903-AE43-6555518F7632}</string>
+							<ProtectedString name="Source"><![CDATA[--!strict
+
+-- TableUtil
+-- Stephen Leitnick
+-- September 13, 2017
+
+--[=[
+	@class TableUtil
+
+	A collection of helpful table utility functions. Many of these functions are carried over from JavaScript or
+	Python that are not present in Lua.
+
+	Tables that only work specifically with arrays or dictionaries are marked as such in the documentation.
+
+	:::info Immutability
+	All functions (_except_ `SwapRemove`, `SwapRemoveFirstValue`, and `Lock`) treat tables as immutable and will return
+	copies of the given table(s) with the operations performed on the copies.
+]=]
+local TableUtil = {}
+
+local HttpService = game:GetService("HttpService")
+local rng = Random.new()
+
+--[=[
+	@within TableUtil
+	@function Copy
+	@param tbl table -- Table to copy
+	@param deep boolean? -- Whether or not to perform a deep copy
+	@return table
+
+	Creates a copy of the given table. By default, a shallow copy is
+	performed. For deep copies, a second boolean argument must be
+	passed to the function.
+
+	:::caution No cyclical references
+	Deep copies are _not_ protected against cyclical references. Passing
+	a table with cyclical references _and_ the `deep` parameter set to
+	`true` will result in a stack-overflow.
+]=]
+local function Copy<T>(t: T, deep: boolean?): T
+	if not deep then
+		return (table.clone(t :: any) :: any) :: T
+	end
+	local function DeepCopy(tbl: { any })
+		local tCopy = table.clone(tbl)
+		for k, v in tCopy do
+			if type(v) == "table" then
+				tCopy[k] = DeepCopy(v)
+			end
+		end
+		return tCopy
+	end
+	return DeepCopy(t :: any) :: T
+end
+
+--[=[
+	@within TableUtil
+	@function Sync
+	@param srcTbl table -- Source table
+	@param templateTbl table -- Template table
+	@return table
+
+	Synchronizes the `srcTbl` based on the `templateTbl`. This will make
+	sure that `srcTbl` has all of the same keys as `templateTbl`, including
+	removing keys in `srcTbl` that are not present in `templateTbl`. This
+	is a _deep_ operation, so any nested tables will be synchronized as
+	well.
+
+	```lua
+	local template = {kills = 0, deaths = 0, xp = 0}
+	local data = {kills = 10, experience = 12}
+	data = TableUtil.Sync(data, template)
+	print(data) --> {kills = 10, deaths = 0, xp = 0}
+	```
+
+	:::caution Data Loss Warning
+	This is a two-way sync, so the source table will have data
+	_removed_ that isn't found in the template table. This can
+	be problematic if used for player data, where there might
+	be dynamic data added that isn't in the template.
+
+	For player data, use `TableUtil.Reconcile` instead.
+]=]
+local function Sync<S, T>(srcTbl: S, templateTbl: T): T
+	assert(type(srcTbl) == "table", "First argument must be a table")
+	assert(type(templateTbl) == "table", "Second argument must be a table")
+
+	local tbl = table.clone(srcTbl)
+
+	-- If 'tbl' has something 'templateTbl' doesn't, then remove it from 'tbl'
+	-- If 'tbl' has something of a different type than 'templateTbl', copy from 'templateTbl'
+	-- If 'templateTbl' has something 'tbl' doesn't, then add it to 'tbl'
+	for k, v in pairs(tbl) do
+		local vTemplate = templateTbl[k]
+
+		-- Remove keys not within template:
+		if vTemplate == nil then
+			tbl[k] = nil
+
+			-- Synchronize data types:
+		elseif type(v) ~= type(vTemplate) then
+			if type(vTemplate) == "table" then
+				tbl[k] = Copy(vTemplate, true)
+			else
+				tbl[k] = vTemplate
+			end
+
+			-- Synchronize sub-tables:
+		elseif type(v) == "table" then
+			tbl[k] = Sync(v, vTemplate)
+		end
+	end
+
+	-- Add any missing keys:
+	for k, vTemplate in pairs(templateTbl) do
+		local v = tbl[k]
+
+		if v == nil then
+			if type(vTemplate) == "table" then
+				tbl[k] = Copy(vTemplate, true)
+			else
+				tbl[k] = vTemplate
+			end
+		end
+	end
+
+	return (tbl :: any) :: T
+end
+
+--[=[
+	@within TableUtil
+	@function Reconcile
+	@param source table
+	@param template table
+	@return table
+
+	Performs a one-way sync on the `source` table against the
+	`template` table. Any keys found in `template` that are
+	not found in `source` will be added to `source`. This is
+	useful for syncing player data against data template tables
+	to ensure players have all the necessary keys, while
+	maintaining existing keys that may no longer be in the
+	template.
+
+	This is a deep operation, so nested tables will also be
+	properly reconciled.
+
+	```lua
+	local template = {kills = 0, deaths = 0, xp = 0}
+	local data = {kills = 10, abc = 20}
+	local correctedData = TableUtil.Reconcile(data, template)
+	
+	print(correctedData) --> {kills = 10, deaths = 0, xp = 0, abc = 20}
+	```
+]=]
+local function Reconcile<S, T>(src: S, template: T): S & T
+	assert(type(src) == "table", "First argument must be a table")
+	assert(type(template) == "table", "Second argument must be a table")
+
+	local tbl = table.clone(src)
+
+	for k, v in template do
+		local sv = src[k]
+		if sv == nil then
+			if type(v) == "table" then
+				tbl[k] = Copy(v, true)
+			else
+				tbl[k] = v
+			end
+		elseif type(sv) == "table" then
+			if type(v) == "table" then
+				tbl[k] = Reconcile(sv, v)
+			else
+				tbl[k] = Copy(sv, true)
+			end
+		end
+	end
+
+	return (tbl :: any) :: S & T
+end
+
+--[=[
+	@within TableUtil
+	@function SwapRemove
+	@param tbl table -- Array
+	@param i number -- Index
+
+	Removes index `i` in the table by swapping the value at `i` with
+	the last value in the array, and then trimming off the last
+	value from the array.
+
+	This allows removal of the value at `i` in `O(1)` time, but does
+	not preserve array ordering. If a value needs to be removed from
+	an array, but ordering of the array does not matter, using
+	`SwapRemove` is always preferred over `table.remove`.
+
+	In the following example, we remove "B" at index 2. SwapRemove does
+	this by moving the last value "E" over top of "B", and then trimming
+	off "E" at the end of the array:
+	```lua
+	local t = {"A", "B", "C", "D", "E"}
+	TableUtil.SwapRemove(t, 2) -- Remove "B"
+	print(t) --> {"A", "E", "C", "D"}
+	```
+
+	:::note Arrays only
+	This function works on arrays, but not dictionaries.
+]=]
+local function SwapRemove<T>(t: { T }, i: number)
+	local n = #t
+	t[i] = t[n]
+	t[n] = nil
+end
+
+--[=[
+	@within TableUtil
+	@function SwapRemoveFirstValue
+	@param tbl table -- Array
+	@param v any -- Value to find
+	@return number?
+
+	Performs `table.find(tbl, v)` to find the index of the given
+	value, and then performs `TableUtil.SwapRemove` on that index.
+
+	```lua
+	local t = {"A", "B", "C", "D", "E"}
+	TableUtil.SwapRemoveFirstValue(t, "C")
+	print(t) --> {"A", "B", "E", "D"}
+	```
+
+	:::note Arrays only
+	This function works on arrays, but not dictionaries.
+]=]
+local function SwapRemoveFirstValue<T>(t: { T }, v: T): number?
+	local index: number? = table.find(t, v)
+	if index then
+		SwapRemove(t, index)
+	end
+	return index
+end
+
+--[=[
+	@within TableUtil
+	@function Map
+	@param tbl table
+	@param predicate (value: any, key: any, tbl: table) -> newValue: any
+	@return table
+
+	Performs a map operation against the given table, which can be used to
+	map new values based on the old values at given keys/indices.
+
+	For example:
+
+	```lua
+	local t = {A = 10, B = 20, C = 30}
+	local t2 = TableUtil.Map(t, function(value)
+		return value * 2
+	end)
+	print(t2) --> {A = 20, B = 40, C = 60}
+	```
+]=]
+local function Map<T, M>(t: { T }, f: (T, number, { T }) -> M): { M }
+	assert(type(t) == "table", "First argument must be a table")
+	assert(type(f) == "function", "Second argument must be a function")
+	local newT = table.create(#t)
+	for k, v in t do
+		newT[k] = f(v, k, t)
+	end
+	return newT
+end
+
+--[=[
+	@within TableUtil
+	@function Filter
+	@param tbl table
+	@param predicate (value: any, key: any, tbl: table) -> keep: boolean
+	@return table
+
+	Performs a filter operation against the given table, which can be used to
+	filter out unwanted values from the table.
+
+	For example:
+
+	```lua
+	local t = {A = 10, B = 20, C = 30}
+	local t2 = TableUtil.Filter(t, function(value, key)
+		return value > 15
+	end)
+	print(t2) --> {B = 40, C = 60}
+	```
+]=]
+local function Filter<T>(t: { T }, predicate: (T, any, { T }) -> boolean): { T }
+	assert(type(t) == "table", "First argument must be a table")
+	assert(type(predicate) == "function", "Second argument must be a function")
+	local newT = table.create(#t)
+	if #t > 0 then
+		local n = 0
+		for i, v in t do
+			if predicate(v, i, t) then
+				n += 1
+				newT[n] = v
+			end
+		end
+	else
+		for k, v in t do
+			if predicate(v, k, t) then
+				newT[k] = v
+			end
+		end
+	end
+	return newT
+end
+
+--[=[
+	@within TableUtil
+	@function Reduce
+	@param tbl table
+	@param predicate (accumulator: any, value: any, index: any, tbl: table) -> result: any
+	@return table
+
+	Performs a reduce operation against the given table, which can be used to
+	reduce the table into a single value. This could be used to sum up a table
+	or transform all the values into a compound value of any kind.
+
+	For example:
+
+	```lua
+	local t = {10, 20, 30, 40}
+	local result = TableUtil.Reduce(t, function(accum, value)
+		return accum + value
+	end)
+	print(result) --> 100
+	```
+]=]
+local function Reduce<T, R>(t: { T }, predicate: (R, T, any, { T }) -> R, init: R): R
+	assert(type(t) == "table", "First argument must be a table")
+	assert(type(predicate) == "function", "Second argument must be a function")
+	local result = init :: R
+	if #t > 0 then
+		local start = 1
+		if init == nil then
+			result = (t[1] :: any) :: R
+			start = 2
+		end
+		for i = start, #t do
+			result = predicate(result, t[i], i, t)
+		end
+	else
+		local start = nil
+		if init == nil then
+			result = (next(t) :: any) :: R
+			start = result
+		end
+		for k, v in next, t, start :: any? do
+			result = predicate(result, v, k, t)
+		end
+	end
+	return result
+end
+
+--[=[
+	@within TableUtil
+	@function Assign
+	@param target table
+	@param ... table
+	@return table
+
+	Copies all values of the given tables into the `target` table.
+
+	```lua
+	local t = {A = 10}
+	local t2 = {B = 20}
+	local t3 = {C = 30, D = 40}
+	local newT = TableUtil.Assign(t, t2, t3)
+	print(newT) --> {A = 10, B = 20, C = 30, D = 40}
+	```
+]=]
+local function Assign<T>(target: { T }, ...: { any }): { T } & { any }
+	local tbl = table.clone(target)
+	for _, src in { ... } do
+		for k, v in src do
+			tbl[k] = v
+		end
+	end
+	return tbl
+end
+
+--[=[
+	@within TableUtil
+	@function Extend
+	@param target table
+	@param extension table
+	@return table
+
+	Extends the target array with the extension array.
+
+	```lua
+	local t = {10, 20, 30}
+	local t2 = {30, 40, 50}
+	local tNew = TableUtil.Extend(t, t2)
+	print(tNew) --> {10, 20, 30, 30, 40, 50}
+	```
+
+	:::note Arrays only
+	This function works on arrays, but not dictionaries.
+]=]
+local function Extend<T, E>(target: { T }, extension: { E }): { T } & { E }
+	local tbl = table.clone(target) :: { any }
+	for _, v in extension do
+		table.insert(tbl, v)
+	end
+	return tbl
+end
+
+--[=[
+	@within TableUtil
+	@function Reverse
+	@param tbl table
+	@return table
+
+	Reverses the array.
+
+	```lua
+	local t = {1, 5, 10}
+	local tReverse = TableUtil.Reverse(t)
+	print(tReverse) --> {10, 5, 1}
+	```
+
+	:::note Arrays only
+	This function works on arrays, but not dictionaries.
+]=]
+local function Reverse<T>(tbl: { T }): { T }
+	local n = #tbl
+	local tblRev = table.create(n)
+	for i = 1, n do
+		tblRev[i] = tbl[n - i + 1]
+	end
+	return tblRev
+end
+
+--[=[
+	@within TableUtil
+	@function Shuffle
+	@param tbl table
+	@param rngOverride Random?
+	@return table
+
+	Shuffles the table.
+
+	```lua
+	local t = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+	local shuffled = TableUtil.Shuffle(t)
+	print(shuffled) --> e.g. {9, 4, 6, 7, 3, 1, 5, 8, 2}
+	```
+
+	:::note Arrays only
+	This function works on arrays, but not dictionaries.
+]=]
+local function Shuffle<T>(tbl: { T }, rngOverride: Random?): { T }
+	assert(type(tbl) == "table", "First argument must be a table")
+	local shuffled = table.clone(tbl)
+	local random = if typeof(rngOverride) == "Random" then rngOverride else rng
+	for i = #tbl, 2, -1 do
+		local j = random:NextInteger(1, i)
+		shuffled[i], shuffled[j] = shuffled[j], shuffled[i]
+	end
+	return shuffled
+end
+
+--[=[
+	@within TableUtil
+	@function Sample
+	@param tbl table
+	@param sampleSize number
+	@param rngOverride Random?
+	@return table
+
+	Returns a random sample of the table.
+
+	```lua
+	local t = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+	local sample = TableUtil.Sample(t, 3)
+	print(sample) --> e.g. {6, 2, 5}
+	```
+
+	:::note Arrays only
+	This function works on arrays, but not dictionaries.
+]=]
+local function Sample<T>(tbl: { T }, size: number, rngOverride: Random?): { T }
+	assert(type(tbl) == "table", "First argument must be a table")
+	assert(type(size) == "number", "Second argument must be a number")
+
+	-- If given table is empty, just return a new empty table:
+	local len = #tbl
+	if len == 0 then
+		return {}
+	end
+
+	local shuffled = table.clone(tbl)
+	local sample = table.create(size)
+	local random = if typeof(rngOverride) == "Random" then rngOverride else rng
+
+	-- Clamp sample size to be no larger than the given table size:
+	size = math.clamp(size, 1, len)
+
+	for i = 1, size do
+		local j = random:NextInteger(i, len)
+		shuffled[i], shuffled[j] = shuffled[j], shuffled[i]
+	end
+
+	table.move(shuffled, 1, size, 1, sample)
+
+	return sample
+end
+
+--[=[
+	@within TableUtil
+	@function Flat
+	@param tbl table
+	@param depth number?
+	@return table
+
+	Returns a new table where all sub-arrays have been
+	bubbled up to the top. The depth at which the scan
+	is performed is dictated by the `depth` parameter,
+	which is set to `1` by default.
+
+	```lua
+	local t = {{10, 20}, {90, 100}, {30, 15}}
+	local flat = TableUtil.Flat(t)
+	print(flat) --> {10, 20, 90, 100, 30, 15}
+	```
+
+	:::note Arrays only
+	This function works on arrays, but not dictionaries.
+]=]
+local function Flat<T>(tbl: { T }, depth: number?): { T }
+	local maxDepth: number = if type(depth) == "number" then depth else 1
+	local flatTbl = table.create(#tbl)
+	local function Scan(t: { any }, d: number)
+		for _, v in t do
+			if type(v) == "table" and d < maxDepth then
+				Scan(v, d + 1)
+			else
+				table.insert(flatTbl, v)
+			end
+		end
+	end
+	Scan(tbl, 0)
+	return flatTbl
+end
+
+--[=[
+	@within TableUtil
+	@function FlatMap
+	@param tbl table
+	@param predicate (key: any, value: any, tbl: table) -> newValue: any
+	@return table
+
+	Calls `TableUtil.Map` on the given table and predicate, and then
+	calls `TableUtil.Flat` on the result from the map operation.
+
+	```lua
+	local t = {10, 20, 30}
+	local result = TableUtil.FlatMap(t, function(value)
+		return {value, value * 2}
+	end)
+	print(result) --> {10, 20, 20, 40, 30, 60}
+	```
+
+	:::note Arrays only
+	This function works on arrays, but not dictionaries.
+]=]
+local function FlatMap<T, M>(tbl: { T }, callback: (T, number, { T }) -> M): { M }
+	return Flat(Map(tbl, callback))
+end
+
+--[=[
+	@within TableUtil
+	@function Keys
+	@param tbl table
+	@return table
+
+	Returns an array with all the keys in the table.
+
+	```lua
+	local t = {A = 10, B = 20, C = 30}
+	local keys = TableUtil.Keys(t)
+	print(keys) --> {"A", "B", "C"}
+	```
+
+	:::caution Ordering
+	The ordering of the keys is never guaranteed. If order is imperative, call
+	`table.sort` on the resulting `keys` array.
+	```lua
+	local keys = TableUtil.Keys(t)
+	table.sort(keys)
+	```
+]=]
+local function Keys<K, V>(tbl: { [K]: V }): { K }
+	local keys = table.create(#tbl)
+	for k in tbl do
+		table.insert(keys, k)
+	end
+	return keys
+end
+
+--[=[
+	@within TableUtil
+	@function Values
+	@param tbl table
+	@return table
+
+	Returns an array with all the values in the table.
+
+	```lua
+	local t = {A = 10, B = 20, C = 30}
+	local values = TableUtil.Values(t)
+	print(values) --> {10, 20, 30}
+	```
+
+	:::caution Ordering
+	The ordering of the values is never guaranteed. If order is imperative, call
+	`table.sort` on the resulting `values` array.
+	```lua
+	local values = TableUtil.Values(t)
+	table.sort(values)
+	```
+]=]
+local function Values<K, V>(tbl: { [K]: V }): { V }
+	local values = table.create(#tbl)
+	for _, v in tbl do
+		table.insert(values, v)
+	end
+	return values
+end
+
+--[=[
+	@within TableUtil
+	@function Find
+	@param tbl table
+	@param callback (value: any, index: any, tbl: table) -> boolean
+	@return (value: any?, key: any?)
+
+	Performs a linear scan across the table and calls `callback` on
+	each item in the array. Returns the value and key of the first
+	pair in which the callback returns `true`.
+
+	```lua
+	local t = {
+		{Name = "Bob", Age = 20};
+		{Name = "Jill", Age = 30};
+		{Name = "Ann", Age = 25};
+	}
+
+	-- Find first person who has a name starting with J:
+	local firstPersonWithJ = TableUtil.Find(t, function(person)
+		return person.Name:sub(1, 1):lower() == "j"
+	end)
+
+	print(firstPersonWithJ) --> {Name = "Jill", Age = 30}
+	```
+
+	:::caution Dictionary Ordering
+	While `Find` can also be used with dictionaries, dictionary ordering is never
+	guaranteed, and thus the result could be different if there are more
+	than one possible matches given the data and callback function.
+]=]
+local function Find<K, V>(tbl: { [K]: V }, callback: (V, K, { [K]: V }) -> boolean): (V?, K?)
+	for k, v in tbl do
+		if callback(v, k, tbl) then
+			return v, k
+		end
+	end
+	return nil, nil
+end
+
+--[=[
+	@within TableUtil
+	@function Every
+	@param tbl table
+	@param callback (value: any, index: any, tbl: table) -> boolean
+	@return boolean
+
+	Returns `true` if the `callback` also returns `true` for _every_
+	item in the table.
+
+	```lua
+	local t = {10, 20, 40, 50, 60}
+
+	local allAboveZero = TableUtil.Every(t, function(value)
+		return value > 0
+	end)
+
+	print("All above zero:", allAboveZero) --> All above zero: true
+	```
+]=]
+local function Every<K, V>(tbl: { [K]: V }, callback: (V, K, { [K]: V }) -> boolean): boolean
+	for k, v in tbl do
+		if not callback(v, k, tbl) then
+			return false
+		end
+	end
+	return true
+end
+
+--[=[
+	@within TableUtil
+	@function Some
+	@param tbl table
+	@param callback (value: any, index: any, tbl: table) -> boolean
+	@return boolean
+
+	Returns `true` if the `callback` also returns `true` for _at least
+	one_ of the items in the table.
+
+	```lua
+	local t = {10, 20, 40, 50, 60}
+
+	local someBelowTwenty = TableUtil.Some(t, function(value)
+		return value < 20
+	end)
+
+	print("Some below twenty:", someBelowTwenty) --> Some below twenty: true
+	```
+]=]
+local function Some<K, V>(tbl: { [K]: V }, callback: (V, K, { [K]: V }) -> boolean): boolean
+	for k, v in tbl do
+		if callback(v, k, tbl) then
+			return true
+		end
+	end
+	return false
+end
+
+--[=[
+	@within TableUtil
+	@function Truncate
+	@param tbl table
+	@param length number
+	@return table
+
+	Returns a new table truncated to the length of `length`. Any length
+	equal or greater than the current length will simply return a
+	shallow copy of the table.
+
+	```lua
+	local t = {10, 20, 30, 40, 50, 60, 70, 80}
+	local tTruncated = TableUtil.Truncate(t, 3)
+	print(tTruncated) --> {10, 20, 30}
+	```
+]=]
+local function Truncate<T>(tbl: { T }, len: number): { T }
+	local n = #tbl
+	len = math.clamp(len, 1, n)
+	return if len == n then table.clone(tbl) else table.move(tbl, 1, len, 1, table.create(len))
+end
+
+--[=[
+	@within TableUtil
+	@function Zip
+	@param ... table
+	@return (iter: (t: table, k: any) -> (key: any?, values: table?), tbl: table, startIndex: any?)
+
+	Returns an iterator that can scan through multiple tables at the same time side-by-side, matching
+	against shared keys/indices.
+
+	```lua
+	local t1 = {10, 20, 30, 40, 50}
+	local t2 = {60, 70, 80, 90, 100}
+
+	for key,values in TableUtil.Zip(t1, t2) do
+		print(key, values)
+	end
+
+	--[[
+		Outputs:
+		1 {10, 60}
+		2 {20, 70}
+		3 {30, 80}
+		4 {40, 90}
+		5 {50, 100}
+	--]]
+	```
+]=]
+local function Zip(...: { [any]: any }): ((t: { any }, k: any) -> (any, any), { any }, any)
+	assert(select("#", ...) > 0, "Must supply at least 1 table")
+	local function ZipIteratorArray(all: { any }, k: number): (number?, { any }?)
+		k += 1
+		local values = {}
+		for i, t in all do
+			local v = t[k]
+			if v ~= nil then
+				values[i] = v
+			else
+				return nil, nil
+			end
+		end
+		return k, values
+	end
+	local function ZipIteratorMap(all: { [any]: any }, k: any): (number?, { any }?)
+		local values = {}
+		for i, t in all do
+			local v = next(t, k)
+			if v ~= nil then
+				values[i] = v
+			else
+				return nil, nil
+			end
+		end
+		return k, values
+	end
+	local all = { ... }
+	if #all[1] > 0 then
+		return ZipIteratorArray, all, 0
+	else
+		return ZipIteratorMap, all, nil
+	end
+end
+
+--[=[
+	@within TableUtil
+	@function Lock
+	@param tbl table
+	@return table
+
+	Locks the table using `table.freeze`, as well as any
+	nested tables within the given table. This will lock
+	the whole deep structure of the table, disallowing any
+	further modifications.
+
+	```lua
+	local tbl = {xyz = {abc = 32}}
+	tbl.xyz.abc = 28 -- Works fine
+	TableUtil.Lock(tbl)
+	tbl.xyz.abc = 64 -- Will throw an error (cannot modify readonly table)
+	```
+]=]
+local function Lock<T>(tbl: T): T
+	local function Freeze(t: { [any]: any })
+		for k, v in pairs(t) do
+			if type(v) == "table" then
+				t[k] = Freeze(v)
+			end
+		end
+		return table.freeze(t)
+	end
+	return Freeze(tbl :: any)
+end
+
+--[=[
+	@within TableUtil
+	@function IsEmpty
+	@param tbl table
+	@return boolean
+
+	Returns `true` if the given table is empty. This is
+	simply performed by checking if `next(tbl)` is `nil`
+	and works for both arrays and dictionaries. This is
+	useful when needing to check if a table is empty but
+	not knowing if it is an array or dictionary.
+
+	```lua
+	TableUtil.IsEmpty({}) -- true
+	TableUtil.IsEmpty({"abc"}) -- false
+	TableUtil.IsEmpty({abc = 32}) -- false
+	```
+]=]
+local function IsEmpty(tbl: { any }): boolean
+	return next(tbl) == nil
+end
+
+--[=[
+	@within TableUtil
+	@function EncodeJSON
+	@param value any
+	@return string
+
+	Proxy for [`HttpService:JSONEncode`](https://developer.roblox.com/en-us/api-reference/function/HttpService/JSONEncode).
+]=]
+local function EncodeJSON(value: any): string
+	return HttpService:JSONEncode(value)
+end
+
+--[=[
+	@within TableUtil
+	@function DecodeJSON
+	@param value any
+	@return string
+
+	Proxy for [`HttpService:JSONDecode`](https://developer.roblox.com/en-us/api-reference/function/HttpService/JSONDecode).
+]=]
+local function DecodeJSON(str: string): any
+	return HttpService:JSONDecode(str)
+end
+
+TableUtil.Copy = Copy
+TableUtil.Sync = Sync
+TableUtil.Reconcile = Reconcile
+TableUtil.SwapRemove = SwapRemove
+TableUtil.SwapRemoveFirstValue = SwapRemoveFirstValue
+TableUtil.Map = Map
+TableUtil.Filter = Filter
+TableUtil.Reduce = Reduce
+TableUtil.Assign = Assign
+TableUtil.Extend = Extend
+TableUtil.Reverse = Reverse
+TableUtil.Shuffle = Shuffle
+TableUtil.Sample = Sample
+TableUtil.Flat = Flat
+TableUtil.FlatMap = FlatMap
+TableUtil.Keys = Keys
+TableUtil.Values = Values
+TableUtil.Find = Find
+TableUtil.Every = Every
+TableUtil.Some = Some
+TableUtil.Truncate = Truncate
+TableUtil.Zip = Zip
+TableUtil.Lock = Lock
+TableUtil.IsEmpty = IsEmpty
+TableUtil.EncodeJSON = EncodeJSON
+TableUtil.DecodeJSON = DecodeJSON
+
+return TableUtil]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be8</UniqueId>
+						</Properties>
+						<Item class="ModuleScript" referent="RBX26DA77E848A04C6D9522BB1B114B8198">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">init.spec</string>
+								<string name="ScriptGuid">{F497C45C-F9CC-4313-8EAE-B60DE781572D}</string>
+								<ProtectedString name="Source"><![CDATA[return function()
+	local TableUtil = require(script.Parent)
+
+	describe("Copy (Deep)", function()
+		it("should create a deep table copy", function()
+			local tbl = { a = { b = { c = { d = 32 } } } }
+			local tblCopy = TableUtil.Copy(tbl, true)
+			expect(tbl).never.to.equal(tblCopy)
+			expect(tbl.a).never.to.equal(tblCopy.a)
+			expect(tblCopy.a.b.c.d).to.equal(tbl.a.b.c.d)
+		end)
+	end)
+
+	describe("Copy (Shallow)", function()
+		it("should create a shallow dictionary copy", function()
+			local tbl = { a = { b = { c = { d = 32 } } } }
+			local tblCopy = TableUtil.Copy(tbl)
+			expect(tblCopy).never.to.equal(tbl)
+			expect(tblCopy.a).to.equal(tbl.a)
+			expect(tblCopy.a.b.c.d).to.equal(tbl.a.b.c.d)
+		end)
+
+		it("should create a shallow array copy", function()
+			local tbl = { 10, 20, 30, 40 }
+			local tblCopy = TableUtil.Copy(tbl)
+			expect(tblCopy).never.to.equal(tbl)
+			for i, v in ipairs(tbl) do
+				expect(tblCopy[i]).to.equal(v)
+			end
+		end)
+	end)
+
+	describe("Sync", function()
+		it("should sync tables", function()
+			local template = { a = 32, b = 64, c = 128, e = { h = 1 } }
+			local tblSrc = { a = 32, b = 10, d = 1, e = { h = 2, n = 2 }, f = { x = 10 } }
+			local tbl = TableUtil.Sync(tblSrc, template)
+			expect(tbl.a).to.equal(template.a)
+			expect(tbl.b).to.equal(10)
+			expect(tbl.c).to.equal(template.c)
+			expect(tbl.d).never.to.be.ok()
+			expect(tbl.e.h).to.equal(2)
+			expect(tbl.e.n).never.to.be.ok()
+			expect(tbl.f).never.to.be.ok()
+		end)
+	end)
+
+	describe("Reconcile", function()
+		it("should reconcile table", function()
+			local template = { kills = 0, deaths = 0, xp = 10, stuff = {}, stuff2 = "abc", stuff3 = { "data" } }
+			local data =
+				{ kills = 10, deaths = 4, stuff = { "abc", "xyz" }, extra = 5, stuff2 = { abc = 10 }, stuff3 = true }
+			local reconciled = TableUtil.Reconcile(data, template)
+			expect(reconciled).never.to.equal(data)
+			expect(reconciled).never.to.equal(template)
+			expect(reconciled.kills).to.equal(10)
+			expect(reconciled.deaths).to.equal(4)
+			expect(reconciled.xp).to.equal(10)
+			expect(reconciled.stuff[1]).to.equal("abc")
+			expect(reconciled.stuff[2]).to.equal("xyz")
+			expect(reconciled.extra).to.equal(5)
+			expect(type(reconciled.stuff2)).to.equal("table")
+			expect(reconciled.stuff2).never.to.equal(data.stuff2)
+			expect(reconciled.stuff2.abc).to.equal(10)
+			expect(type(reconciled.stuff3)).to.equal("boolean")
+			expect(reconciled.stuff3).to.equal(true)
+		end)
+	end)
+
+	describe("SwapRemove", function()
+		it("should swap remove index", function()
+			local tbl = { 1, 2, 3, 4, 5 }
+			TableUtil.SwapRemove(tbl, 3)
+			expect(#tbl).to.equal(4)
+			expect(tbl[3]).to.equal(5)
+		end)
+	end)
+
+	describe("SwapRemoveFirstValue", function()
+		it("should swap remove first value given", function()
+			local tbl = { "hello", "world", "goodbye", "planet" }
+			TableUtil.SwapRemoveFirstValue(tbl, "world")
+			expect(#tbl).to.equal(3)
+			expect(tbl[2]).to.equal("planet")
+		end)
+	end)
+
+	describe("Map", function()
+		it("should map table", function()
+			local tbl = {
+				{ FirstName = "John", LastName = "Doe" },
+				{ FirstName = "Jane", LastName = "Smith" },
+			}
+			local tblMapped = TableUtil.Map(tbl, function(person)
+				return person.FirstName .. " " .. person.LastName
+			end)
+			expect(tblMapped[1]).to.equal("John Doe")
+			expect(tblMapped[2]).to.equal("Jane Smith")
+		end)
+	end)
+
+	describe("Filter", function()
+		it("should filter table", function()
+			local tbl = { 10, 20, 30, 40, 50, 60, 70, 80, 90 }
+			local tblFiltered = TableUtil.Filter(tbl, function(n)
+				return (n >= 30 and n <= 60)
+			end)
+			expect(#tblFiltered).to.equal(4)
+			expect(tblFiltered[1]).to.equal(30)
+			expect(tblFiltered[#tblFiltered]).to.equal(60)
+		end)
+	end)
+
+	describe("Reduce", function()
+		it("should reduce table with numbers", function()
+			local tbl = { 1, 2, 3, 4, 5 }
+			local reduced = TableUtil.Reduce(tbl, function(accum, value)
+				return accum + value
+			end)
+			expect(reduced).to.equal(15)
+		end)
+
+		it("should reduce table", function()
+			local tbl = { { Score = 10 }, { Score = 20 }, { Score = 30 } }
+			local reduced = TableUtil.Reduce(tbl, function(accum, value)
+				return accum + value.Score
+			end, 0)
+			expect(reduced).to.equal(60)
+		end)
+
+		it("should reduce table with initial value", function()
+			local tbl = { { Score = 10 }, { Score = 20 }, { Score = 30 } }
+			local reduced = TableUtil.Reduce(tbl, function(accum, value)
+				return accum + value.Score
+			end, 40)
+			expect(reduced).to.equal(100)
+		end)
+
+		it("should reduce functions", function()
+			local function Square(x)
+				return x * x
+			end
+			local function Double(x)
+				return x * 2
+			end
+			local Func = TableUtil.Reduce({ Square, Double }, function(a, b)
+				return function(x)
+					return a(b(x))
+				end
+			end)
+			local result = Func(10)
+			expect(result).to.equal(400)
+		end)
+	end)
+
+	describe("Assign", function()
+		it("should assign tables", function()
+			local target = { a = 32, x = 100 }
+			local t1 = { b = 64, c = 128 }
+			local t2 = { a = 10, c = 100, d = 200 }
+			local tbl = TableUtil.Assign(target, t1, t2)
+			expect(tbl.a).to.equal(10)
+			expect(tbl.b).to.equal(64)
+			expect(tbl.c).to.equal(100)
+			expect(tbl.d).to.equal(200)
+			expect(tbl.x).to.equal(100)
+		end)
+	end)
+
+	describe("Extend", function()
+		it("should extend tables", function()
+			local tbl = { "a", "b", "c" }
+			local extension = { "d", "e", "f" }
+			local extended = TableUtil.Extend(tbl, extension)
+			expect(table.concat(extended)).to.equal("abcdef")
+		end)
+	end)
+
+	describe("Reverse", function()
+		it("should create a table in reverse", function()
+			local tbl = { 1, 2, 3 }
+			local tblRev = TableUtil.Reverse(tbl)
+			expect(table.concat(tblRev)).to.equal("321")
+		end)
+	end)
+
+	describe("Shuffle", function()
+		it("should shuffle a table", function()
+			local tbl = { 1, 2, 3, 4, 5 }
+			expect(function()
+				TableUtil.Shuffle(tbl)
+			end).never.to.throw()
+		end)
+	end)
+
+	describe("Sample", function()
+		it("should sample a table", function()
+			local tbl = { 1, 2, 3, 4, 5 }
+			local sample = TableUtil.Sample(tbl, 3)
+			expect(#sample).to.equal(3)
+		end)
+	end)
+
+	describe("Flat", function()
+		it("should flatten table", function()
+			local tbl = { 1, 2, 3, { 4, 5, { 6, 7 } } }
+			local tblFlat = TableUtil.Flat(tbl, 3)
+			expect(table.concat(tblFlat)).to.equal("1234567")
+		end)
+	end)
+
+	describe("FlatMap", function()
+		it("should map and flatten table", function()
+			local tbl = { 1, 2, 3, 4, 5, 6, 7 }
+			local tblFlat = TableUtil.FlatMap(tbl, function(n)
+				return { n, n * 2 }
+			end)
+			expect(table.concat(tblFlat)).to.equal("12243648510612714")
+		end)
+	end)
+
+	describe("Keys", function()
+		it("should give all keys of table", function()
+			local tbl = { a = 1, b = 2, c = 3 }
+			local keys = TableUtil.Keys(tbl)
+			expect(#keys).to.equal(3)
+			expect(table.find(keys, "a")).to.be.ok()
+			expect(table.find(keys, "b")).to.be.ok()
+			expect(table.find(keys, "c")).to.be.ok()
+		end)
+	end)
+
+	describe("Values", function()
+		it("should give all values of table", function()
+			local tbl = { a = 1, b = 2, c = 3 }
+			local values = TableUtil.Values(tbl)
+			expect(#values).to.equal(3)
+			expect(table.find(values, 1)).to.be.ok()
+			expect(table.find(values, 2)).to.be.ok()
+			expect(table.find(values, 3)).to.be.ok()
+		end)
+	end)
+
+	describe("Find", function()
+		it("should find item in array", function()
+			local tbl = { 10, 20, 30 }
+			local item, index = TableUtil.Find(tbl, function(value)
+				return (value == 20)
+			end)
+			expect(item).to.be.ok()
+			expect(index).to.equal(2)
+			expect(item).to.equal(20)
+		end)
+
+		it("should find item in dictionary", function()
+			local tbl = { { Score = 10 }, { Score = 20 }, { Score = 30 } }
+			local item, index = TableUtil.Find(tbl, function(value)
+				return (value.Score == 20)
+			end)
+			expect(item).to.be.ok()
+			expect(index).to.equal(2)
+			expect(item.Score).to.equal(20)
+		end)
+	end)
+
+	describe("Every", function()
+		it("should see every value is above 20", function()
+			local tbl = { 21, 40, 200 }
+			local every = TableUtil.Every(tbl, function(n)
+				return (n > 20)
+			end)
+			expect(every).to.equal(true)
+		end)
+
+		it("should see every value is not above 20", function()
+			local tbl = { 20, 40, 200 }
+			local every = TableUtil.Every(tbl, function(n)
+				return (n > 20)
+			end)
+			expect(every).never.to.equal(true)
+		end)
+	end)
+
+	describe("Some", function()
+		it("should see some value is above 20", function()
+			local tbl = { 5, 40, 1 }
+			local every = TableUtil.Some(tbl, function(n)
+				return (n > 20)
+			end)
+			expect(every).to.equal(true)
+		end)
+
+		it("should see some value is not above 20", function()
+			local tbl = { 5, 15, 1 }
+			local every = TableUtil.Some(tbl, function(n)
+				return (n > 20)
+			end)
+			expect(every).never.to.equal(true)
+		end)
+	end)
+
+	describe("Truncate", function()
+		it("should truncate an array", function()
+			local t1 = { 1, 2, 3, 4, 5 }
+			local t2 = TableUtil.Truncate(t1, 3)
+			expect(#t2).to.equal(3)
+			expect(t2[1]).to.equal(t1[1])
+			expect(t2[2]).to.equal(t1[2])
+			expect(t2[3]).to.equal(t1[3])
+		end)
+
+		it("should truncate an array with out of bounds sizes", function()
+			local t1 = { 1, 2, 3, 4, 5 }
+			expect(function()
+				TableUtil.Truncate(t1, -1)
+			end).to.never.throw()
+			expect(function()
+				TableUtil.Truncate(t1, #t1 + 1)
+			end).to.never.throw()
+			local t2 = TableUtil.Truncate(t1, #t1 + 10)
+			expect(#t2).to.equal(#t1)
+			expect(t2).to.never.equal(t1)
+		end)
+	end)
+
+	describe("Lock", function()
+		it("should lock a table", function()
+			local t = { abc = { xyz = { num = 32 } } }
+			expect(function()
+				t.abc.xyz.num = 64
+			end).never.to.throw()
+			local t2 = TableUtil.Lock(t)
+			expect(t.abc.xyz.num).to.equal(64)
+			expect(t).to.equal(t2)
+			expect(function()
+				t.abc.xyz.num = 10
+			end).to.throw()
+		end)
+	end)
+
+	describe("Zip", function()
+		it("should zip arrays together", function()
+			local t1 = { 1, 2, 3, 4, 5 }
+			local t2 = { 9, 8, 7, 6, 5 }
+			local t3 = { 1, 1, 1, 1, 1 }
+			local lastIndex = 0
+			for i, v in TableUtil.Zip(t1, t2, t3) do
+				lastIndex = i
+				expect(v[1]).to.equal(t1[i])
+				expect(v[2]).to.equal(t2[i])
+				expect(v[3]).to.equal(t3[i])
+			end
+			expect(lastIndex).to.equal(math.min(#t1, #t2, #t3))
+		end)
+
+		it("should zip arrays of different lengths together", function()
+			local t1 = { 1, 2, 3, 4, 5 }
+			local t2 = { 9, 8, 7, 6 }
+			local t3 = { 1, 1, 1 }
+			local lastIndex = 0
+			for i, v in TableUtil.Zip(t1, t2, t3) do
+				lastIndex = i
+				expect(v[1]).to.equal(t1[i])
+				expect(v[2]).to.equal(t2[i])
+				expect(v[3]).to.equal(t3[i])
+			end
+			expect(lastIndex).to.equal(math.min(#t1, #t2, #t3))
+		end)
+
+		it("should zip maps together", function()
+			local t1 = { a = 10, b = 20, c = 30 }
+			local t2 = { a = 100, b = 200, c = 300 }
+			local t3 = { a = 3000, b = 2000, c = 3000 }
+			for k, v in TableUtil.Zip(t1, t2, t3) do
+				expect(v[1]).to.equal(t1[k])
+				expect(v[2]).to.equal(t2[k])
+				expect(v[3]).to.equal(t3[k])
+			end
+		end)
+
+		it("should zip maps of different keys together", function()
+			local t1 = { a = 10, b = 20, c = 30, d = 40 }
+			local t2 = { a = 100, b = 200, c = 300, z = 10 }
+			local t3 = { a = 3000, b = 2000, c = 3000, x = 0 }
+			for k, v in TableUtil.Zip(t1, t2, t3) do
+				expect(v[1]).to.equal(t1[k])
+				expect(v[2]).to.equal(t2[k])
+				expect(v[3]).to.equal(t3[k])
+			end
+		end)
+	end)
+
+	describe("IsEmpty", function()
+		it("should detect that table is empty", function()
+			local tbl = {}
+			local isEmpty = TableUtil.IsEmpty(tbl)
+			expect(isEmpty).to.equal(true)
+		end)
+
+		it("should detect that array is not empty", function()
+			local tbl = { 10, 20, 30 }
+			local isEmpty = TableUtil.IsEmpty(tbl)
+			expect(isEmpty).to.equal(false)
+		end)
+
+		it("should detect that dictionary is not empty", function()
+			local tbl = { a = 10, b = 20, c = 30 }
+			local isEmpty = TableUtil.IsEmpty(tbl)
+			expect(isEmpty).to.equal(false)
+		end)
+	end)
+
+	describe("JSON", function()
+		it("should encode json", function()
+			local tbl = { hello = "world" }
+			local json = TableUtil.EncodeJSON(tbl)
+			expect(json).to.equal('{"hello":"world"}')
+		end)
+
+		it("should decode json", function()
+			local json = '{"hello":"world"}'
+			local tbl = TableUtil.DecodeJSON(json)
+			expect(tbl).to.be.a("table")
+			expect(tbl.hello).to.equal("world")
+		end)
+	end)
+end]]></ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be9</UniqueId>
+							</Properties>
+						</Item>
+						<Item class="ModuleScript" referent="RBXC5DC1A31A84B474BB7E164BC604AE9F7">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">wally</string>
+								<string name="ScriptGuid">{A73EDEFE-8068-4574-95A6-EB3BA95951BF}</string>
+								<ProtectedString name="Source"><![CDATA[return {
+	package = {
+		authors = {"Stephen Leitnick"},
+		description = "Table utility functions",
+		license = "MIT",
+		name = "sleitnick/table-util",
+		realm = "shared",
+		registry = "https://github.com/UpliftGames/wally-index",
+		version = "1.2.1",
+	},
+}]]></ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004bea</UniqueId>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
 		</Item>
 	</Item>
 	<Item class="LuaWebService" referent="RBX78B7B287A06F4AEDA135CA47215E1198">
