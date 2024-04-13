@@ -79,18 +79,18 @@
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<CoordinateFrame name="CFrame">
-					<X>5.6016016</X>
-					<Y>12.5592098</Y>
-					<Z>12.7745924</Z>
-					<R00>0.94940418</R00>
-					<R01>-0.157578051</R01>
-					<R02>0.271663189</R02>
+					<X>4.11221027</X>
+					<Y>9.70993805</Y>
+					<Z>10.4637909</Z>
+					<R00>0.969411969</R00>
+					<R01>-0.0601777621</R01>
+					<R02>0.237947613</R02>
 					<R10>-0</R10>
-					<R11>0.865012646</R11>
-					<R12>0.501749992</R12>
-					<R20>-0.314056903</R20>
-					<R21>-0.47636354</R21>
-					<R22>0.821246624</R22>
+					<R11>0.9694767</R11>
+					<R12>0.245183975</R12>
+					<R20>-0.245439216</R20>
+					<R21>-0.23768428</R21>
+					<R22>0.939822316</R22>
 				</CoordinateFrame>
 				<Ref name="CameraSubject">null</Ref>
 				<token name="CameraType">0</token>
@@ -99,9 +99,9 @@
 				<float name="FieldOfView">70</float>
 				<token name="FieldOfViewMode">0</token>
 				<CoordinateFrame name="Focus">
-					<X>5.05827522</X>
-					<Y>11.5557098</Y>
-					<Z>11.1320992</Z>
+					<X>3.63631511</X>
+					<Y>9.21957016</Y>
+					<Z>8.5841465</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -740,6 +740,125 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<X>4</X>
 					<Y>1</Y>
 					<Z>4</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="MeshPart" referent="RBX2E2676D88B874054A73ED0AE2CE7B1C8">
+			<Properties>
+				<SharedString name="AeroMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>10.4999838</Y>
+					<Z>-20</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CanQuery">true</bool>
+				<bool name="CanTouch">true</bool>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="CastShadow">true</bool>
+				<string name="CollisionGroup">Default</string>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="DoubleSided">false</bool>
+				<bool name="EnableFluidForces">true</bool>
+				<token name="FluidFidelityInternal">0</token>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<bool name="HasJointOffset">false</bool>
+				<bool name="HasSkinnedMesh">false</bool>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<Vector3 name="InitialSize">
+					<X>1.34124994</X>
+					<Y>1.65496504</Y>
+					<Z>1.34124994</Z>
+				</Vector3>
+				<Vector3 name="JointOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<string name="MaterialVariantSerialized"></string>
+				<Content name="MeshId"><url>rbxassetid://1778999</url></Content>
+				<string name="Name">Cone</string>
+				<SharedString name="PhysicalConfigData">vnASrALObGdJIkbgPn3MTQ==</SharedString>
+				<BinaryString name="PhysicsData"></BinaryString>
+				<CoordinateFrame name="PivotOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<float name="Reflectance">0</float>
+				<token name="RenderFidelity">1</token>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<int64 name="SourceAssetId">12939630009</int64>
+				<BinaryString name="Tags">RGlzY28=</BinaryString>
+				<Content name="TextureID"><null></null></Content>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005624</UniqueId>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<int name="VertexCount">76</int>
+				<Vector3 name="size">
+					<X>10</X>
+					<Y>10</Y>
+					<Z>10</Z>
 				</Vector3>
 			</Properties>
 		</Item>
@@ -1559,7 +1678,7 @@ end]]></ProtectedString>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<bool name="Disabled">false</bool>
+					<bool name="Disabled">true</bool>
 					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">RbxUtilsExample</string>
@@ -1573,6 +1692,7 @@ local Signal = require(Packages.Signal)
 local TableUtil = require(Packages.TableUtil)
 
 -- Use the modules
+-- Effectively shuffles a given array
 local signal = Signal.new()
 
 signal:Connect(function(data)
@@ -1584,6 +1704,41 @@ signal:Fire({"A", "B", "C"})]]></ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 					<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004c2d</UniqueId>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBXAD03BC092E04434D9AC3DEC9FB5729F5">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Disabled">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">ObserversExample</string>
+					<token name="RunContext">0</token>
+					<string name="ScriptGuid">{AE326AFA-7658-44E2-84B2-1FE89045843A}</string>
+					<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Observers = require(ReplicatedStorage.Packages.Observers)
+
+-- Observe mesh instances with the "Disco" tag
+Observers.observeTag("Disco", function(part: MeshPart)
+  -- Spawn a thread that changes the color every 0.2 seconds:
+  local discoThread = task.spawn(function()
+    while true do
+      task.wait(0.2)
+      part.Color = Color3.new(math.random(), math.random(), math.random())
+      part.Rotation = Vector3.new(math.random()*360, math.random()*360, math.random()*360)
+    end
+  end)
+
+  -- Close the disco thread once the tag or instance is removed:
+  return function()
+    task.cancel(discoThread)
+  end
+end)]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a68</UniqueId>
 				</Properties>
 			</Item>
 		</Item>
@@ -1664,7 +1819,22 @@ signal:Fire({"A", "B", "C"})]]></ProtectedString>
 					<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be1</UniqueId>
 				</Properties>
 			</Item>
-			<Item class="Folder" referent="RBX12AB9501376E468DBD1F100E459B983E">
+			<Item class="ModuleScript" referent="RBX73CD8EDF5E4F42099386146C7AE2AB42">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Observers</string>
+					<string name="ScriptGuid">{0016FAEC-5AED-4EA5-9C87-BA6A699F83AF}</string>
+					<ProtectedString name="Source">return require(script.Parent._Index[&quot;sleitnick_observers@0.3.3&quot;][&quot;observers&quot;])</ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a9000059bd</UniqueId>
+				</Properties>
+			</Item>
+			<Item class="Folder" referent="RBX90670B9F384D4FDCB615A8351218F52C">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1673,9 +1843,660 @@ signal:Fire({"A", "B", "C"})]]></ProtectedString>
 					<string name="Name">_Index</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
-					<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be2</UniqueId>
+					<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a10</UniqueId>
 				</Properties>
-				<Item class="Folder" referent="RBX9FD22E8E048742439DEC9DA2B0E5B486">
+				<Item class="Folder" referent="RBXCB37528B9E1D45D19182E36131AFEE8F">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+						<string name="Name">sleitnick_observers@0.3.3</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a11</UniqueId>
+					</Properties>
+					<Item class="ModuleScript" referent="RBXA82CF4F3DE0C4C6BB432E639E765A3BC">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">observers</string>
+							<string name="ScriptGuid">{CA9A6D21-4EC9-4043-8E6A-2F502F6956F1}</string>
+							<ProtectedString name="Source"><![CDATA[--!strict
+
+--[=[
+	@class Observers
+
+	A collection of observer utility functions.
+]=]
+
+return {
+	observeTag = require(script.observeTag),
+	observeAttribute = require(script.observeAttribute),
+	observeProperty = require(script.observeProperty),
+	observePlayer = require(script.observePlayer),
+	observeCharacter = require(script.observeCharacter),
+}]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a12</UniqueId>
+						</Properties>
+						<Item class="ModuleScript" referent="RBX415845868DDE4C9EAF9E6436906D61E5">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">observeAttribute</string>
+								<string name="ScriptGuid">{BC084C07-6E61-4BD3-AFDC-99536D4D7BCC}</string>
+								<ProtectedString name="Source"><![CDATA[--!strict
+
+export type AttributeValue =
+	string
+	| boolean
+	| number
+	| UDim
+	| UDim2
+	| BrickColor
+	| Color3
+	| Vector2
+	| Vector3
+	| CFrame
+	| NumberSequence
+	| ColorSequence
+	| NumberRange
+	| Rect
+	| Font
+
+local function defaultGuard(_value: AttributeValue)
+	return true
+end
+
+--[=[
+	@within Observers
+
+	Creates an observer around an attribute of a given instance. The callback will fire for any non-nil
+	attribute value.
+
+	```lua
+	observeAttribute(workspace.Model, "MyAttribute", function(value)
+		print("MyAttribute is now:", value)
+
+		return function()
+			-- Cleanup
+			print("MyAttribute is no longer:", value)
+		end
+	end)
+	```
+
+	An optional `guard` predicate function can be supplied to further narrow which values trigger the observer.
+	For instance, if only strings are wanted:
+
+	```lua
+	observeAttribute(
+		workspace.Model,
+		"MyAttribute",
+		function(value) print("value is a string", value) end,
+		function(value) return typeof(value) == "string" end
+	)
+	```
+
+	The observer also returns a function that can be called to clean up the observer:
+	```lua
+	local stopObserving = observeAttribute(workspace.Model, "MyAttribute", function(value) ... end)
+
+	task.wait(10)
+	stopObserving()
+	```
+]=]
+local function observeAttribute(
+	instance: Instance,
+	name: string,
+	callback: (value: AttributeValue) -> () -> (),
+	guard: ((value: AttributeValue) -> boolean)?
+): () -> ()
+	local cleanFn: (() -> ())? = nil
+
+	local onAttrChangedConn: RBXScriptConnection
+	local changedId = 0
+
+	local valueGuard: (value: AttributeValue) -> boolean = if guard ~= nil then guard else defaultGuard
+
+	local function OnAttributeChanged()
+		if cleanFn ~= nil then
+			task.spawn(cleanFn)
+			cleanFn = nil
+		end
+
+		changedId += 1
+		local id = changedId
+
+		local value = instance:GetAttribute(name)
+
+		if value ~= nil and valueGuard(value) then
+			task.spawn(function()
+				local clean = callback(value)
+				if id == changedId and onAttrChangedConn.Connected then
+					cleanFn = clean
+				else
+					task.spawn(clean)
+				end
+			end)
+		end
+	end
+
+	-- Get changed values:
+	onAttrChangedConn = instance:GetAttributeChangedSignal(name):Connect(OnAttributeChanged)
+
+	-- Get initial value:
+	task.defer(function()
+		if not onAttrChangedConn.Connected then
+			return
+		end
+
+		OnAttributeChanged()
+	end)
+
+	-- Cleanup:
+	return function()
+		onAttrChangedConn:Disconnect()
+		if cleanFn ~= nil then
+			task.spawn(cleanFn)
+			cleanFn = nil
+		end
+	end
+end
+
+return observeAttribute]]></ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a13</UniqueId>
+							</Properties>
+						</Item>
+						<Item class="ModuleScript" referent="RBX0D86DECF9D9D4D169B77B2813498C696">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">observeCharacter</string>
+								<string name="ScriptGuid">{DA7D8342-0646-4B1F-A191-B7AB597ADAE7}</string>
+								<ProtectedString name="Source"><![CDATA[--!strict
+
+local observePlayer = require(script.Parent.observePlayer)
+
+--[=[
+	@within Observers
+
+	Creates an observer that captures each character in the game.
+
+	```lua
+	observeCharacter(function(player, character)
+		print("Character spawned for " .. player.Name)
+
+		return function()
+			-- Cleanup
+			print("Character removed for " .. player.Name)
+		end
+	end)
+	```
+]=]
+local function observeCharacter(callback: (player: Player, character: Model) -> (() -> ())?): () -> ()
+	return observePlayer(function(player)
+		local cleanupFn: (() -> ())? = nil
+
+		local characterAddedConn: RBXScriptConnection
+
+		local function OnCharacterAdded(character: Model)
+			local currentCharCleanup: (() -> ())? = nil
+
+			-- Call the callback:
+			task.defer(function()
+				local cleanup = callback(player, character)
+				-- If a cleanup function is given, save it for later:
+				if typeof(cleanup) == "function" then
+					if characterAddedConn.Connected and character.Parent then
+						currentCharCleanup = cleanup
+						cleanupFn = cleanup
+					else
+						-- Character is already gone or observer has stopped; call cleanup immediately:
+						task.spawn(cleanup)
+					end
+				end
+			end)
+
+			-- Watch for the character to be removed from the game hierarchy:
+			local ancestryChangedConn: RBXScriptConnection
+			ancestryChangedConn = character.AncestryChanged:Connect(function(_, newParent)
+				if newParent == nil and ancestryChangedConn.Connected then
+					ancestryChangedConn:Disconnect()
+					if currentCharCleanup ~= nil then
+						task.spawn(currentCharCleanup)
+						if cleanupFn == currentCharCleanup then
+							cleanupFn = nil
+						end
+						currentCharCleanup = nil
+					end
+				end
+			end)
+		end
+
+		-- Handle character added:
+		characterAddedConn = player.CharacterAdded:Connect(OnCharacterAdded)
+
+		-- Handle initial character:
+		task.defer(function()
+			if player.Character and characterAddedConn.Connected then
+				task.spawn(OnCharacterAdded, player.Character)
+			end
+		end)
+
+		-- Cleanup:
+		return function()
+			characterAddedConn:Disconnect()
+			if cleanupFn ~= nil then
+				task.spawn(cleanupFn)
+				cleanupFn = nil
+			end
+		end
+	end)
+end
+
+return observeCharacter]]></ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a14</UniqueId>
+							</Properties>
+						</Item>
+						<Item class="ModuleScript" referent="RBX1F580629A4B744E58E7BF90B34C0FA71">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">observePlayer</string>
+								<string name="ScriptGuid">{1D3E6674-39D2-465A-BFDB-F56C88FB7320}</string>
+								<ProtectedString name="Source"><![CDATA[--!strict
+
+local Players = game:GetService("Players")
+
+--[=[
+	@within Observers
+
+	Creates an observer that captures each player in the game.
+
+	```lua
+	observePlayer(function(player)
+		print("Player entered game", player.Name)
+
+		return function()
+			-- Cleanup
+			print("Player left game (or observer stopped)", player.Name)
+		end
+	end)
+	```
+]=]
+local function observePlayer(callback: (player: Player) -> (() -> ())?): () -> ()
+	local playerAddedConn: RBXScriptConnection
+	local playerRemovingConn: RBXScriptConnection
+
+	local cleanupsPerPlayer: { [Player]: () -> () } = {}
+
+	local function OnPlayerAdded(player: Player)
+		if not playerAddedConn.Connected then
+			return
+		end
+
+		task.spawn(function()
+			local cleanup = callback(player)
+			if typeof(cleanup) == "function" then
+				if playerAddedConn.Connected and player.Parent then
+					cleanupsPerPlayer[player] = cleanup
+				else
+					task.spawn(cleanup)
+				end
+			end
+		end)
+	end
+
+	local function OnPlayerRemoving(player: Player)
+		local cleanup = cleanupsPerPlayer[player]
+		cleanupsPerPlayer[player] = nil
+		if typeof(cleanup) == "function" then
+			task.spawn(cleanup)
+		end
+	end
+
+	-- Listen for changes:
+	playerAddedConn = Players.PlayerAdded:Connect(OnPlayerAdded)
+	playerRemovingConn = Players.PlayerRemoving:Connect(OnPlayerRemoving)
+
+	-- Initial:
+	task.defer(function()
+		if not playerAddedConn.Connected then
+			return
+		end
+
+		for _, player in Players:GetPlayers() do
+			task.spawn(OnPlayerAdded, player)
+		end
+	end)
+
+	-- Cleanup:
+	return function()
+		playerAddedConn:Disconnect()
+		playerRemovingConn:Disconnect()
+
+		local player = next(cleanupsPerPlayer)
+		while player do
+			OnPlayerRemoving(player)
+			player = next(cleanupsPerPlayer)
+		end
+	end
+end
+
+return observePlayer]]></ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a15</UniqueId>
+							</Properties>
+						</Item>
+						<Item class="ModuleScript" referent="RBX8331BAE05BF54CF7846E1742C21831DD">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">observeProperty</string>
+								<string name="ScriptGuid">{13CEBE46-2C00-4BFD-9A2D-BAB184D001FB}</string>
+								<ProtectedString name="Source"><![CDATA[--!strict
+
+--[=[
+	@within Observers
+
+	Creates an observer around a property of a given instance.
+
+	```lua
+	observeProperty(workspace.Model, "Name", function(newName: string)
+		print("New name:", name)
+
+		return function()
+			-- Cleanup
+			print("Model's name is no longer:", name)
+		end
+	end)
+	```
+]=]
+local function observeProperty(instance: Instance, property: string, callback: (value: unknown) -> () -> ()): () -> ()
+	local cleanFn: (() -> ())? = nil
+
+	local propChangedConn: RBXScriptConnection
+	local changedId = 0
+
+	local function OnPropertyChanged()
+		if cleanFn ~= nil then
+			task.spawn(cleanFn)
+			cleanFn = nil
+		end
+
+		changedId += 1
+		local id = changedId
+
+		local value = (instance :: any)[property]
+
+		task.spawn(function()
+			local clean = callback(value)
+			if id == changedId and propChangedConn.Connected then
+				cleanFn = clean
+			else
+				task.spawn(clean)
+			end
+		end)
+	end
+
+	-- Get changed values:
+	propChangedConn = instance:GetPropertyChangedSignal(property):Connect(OnPropertyChanged)
+
+	-- Get initial value:
+	task.defer(function()
+		if not propChangedConn.Connected then
+			return
+		end
+		OnPropertyChanged()
+	end)
+
+	-- Cleanup:
+	return function()
+		propChangedConn:Disconnect()
+		if cleanFn ~= nil then
+			task.spawn(cleanFn)
+			cleanFn = nil
+		end
+	end
+end
+
+return observeProperty]]></ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a16</UniqueId>
+							</Properties>
+						</Item>
+						<Item class="ModuleScript" referent="RBXC953391E944847C7A5B400DD4CD65011">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">observeTag</string>
+								<string name="ScriptGuid">{D7A5A87B-E208-46C2-B142-D1A2D3E53242}</string>
+								<ProtectedString name="Source"><![CDATA[--!strict
+
+local CollectionService = game:GetService("CollectionService")
+
+type InstanceStatus = "__inflight__" | "__dead__"
+
+--[=[
+	@within Observers
+
+	Creates an observer around a CollectionService tag. The given callback will fire for each instance
+	that has the given tag.
+
+	The callback should return a function, which will be called when the given instance's tag is either
+	destroyed, loses the given tag, or (if the `ancestors` table is provided) goes outside of the allowed
+	ancestors.
+
+	The function itself returns a function that can be called to stop the observer. This will also call
+	any cleanup functions of currently-observed instances.
+
+	```lua
+	local stopObserver = Observers.observeTag("MyTag", function(instance: Instance)
+		print("Observing", instance)
+
+		-- The "cleanup" function:
+		return function()
+			print("Stopped observing", instance)
+		end
+	end)
+
+	-- Optionally, the `stopObserver` function can be called to completely stop the observer:
+	task.wait(10)
+	stopObserver()
+	```
+
+	#### Ancestor Inclusion List
+	By default, the `observeTag` function will observe a tagged instance anywhere in the Roblox game
+	hierarchy. The `ancestors` table can optionally be used, which will restrict the observer to only
+	observe tagged instances that are descendants of instances within the `ancestors` table.
+
+	For instance, if a tagged instance should only be observed when it is in the Workspace, the Workspace
+	can be added to the `ancestors` list. This might be useful if a tagged model prefab exist somewhere
+	such as ServerStorage, but shouldn't be observed until placed into the Workspace.
+
+	```lua
+	local allowedAncestors = { workspace }
+
+	Observers.observeTag(
+		"MyTag",
+		function(instance: Instance)
+			...
+		end,
+		allowedAncestors
+	)
+	```
+]=]
+function observeTag<T>(tag: string, callback: (instance: T) -> () -> (), ancestors: { Instance }?): () -> ()
+	local instances: { [Instance]: InstanceStatus | () -> () } = {}
+	local ancestryConn: { [Instance]: RBXScriptConnection } = {}
+
+	local onInstAddedConn: RBXScriptConnection
+	local onInstRemovedConn: RBXScriptConnection
+
+	local function IsGoodAncestor(instance: Instance)
+		if ancestors == nil then
+			return true
+		end
+
+		for _, ancestor in ancestors do
+			if instance:IsDescendantOf(ancestor) then
+				return true
+			end
+		end
+
+		return false
+	end
+
+	local function AttemptStartup(instance: Instance)
+		-- Mark instance as starting up:
+		instances[instance] = "__inflight__"
+
+		-- Attempt to run the callback:
+		task.defer(function()
+			if instances[instance] ~= "__inflight__" then
+				return
+			end
+
+			-- Run the callback in protected mode:
+			local success, cleanup = xpcall(function(inst: T)
+				local clean = callback(inst)
+				assert(typeof(clean) == "function", "callback must return a function")
+				return clean
+			end, debug.traceback, instance :: any)
+
+			-- If callback errored, print out the traceback:
+			if not success then
+				local err = ""
+				local firstLine = string.split(cleanup :: any, "\n")[1]
+				local lastColon = string.find(firstLine, ": ")
+				if lastColon then
+					err = firstLine:sub(lastColon + 1)
+				end
+				warn(`error while calling observeTag("{tag}") callback:{err}\n{cleanup}`)
+				return
+			end
+
+			if instances[instance] ~= "__inflight__" then
+				-- Instance lost its tag or was destroyed before callback completed; call cleanup immediately:
+				task.spawn(cleanup :: any)
+			else
+				-- Good startup; mark the instance with the associated cleanup function:
+				instances[instance] = cleanup :: any
+			end
+		end)
+	end
+
+	local function AttemptCleanup(instance: Instance)
+		local cleanup = instances[instance]
+		instances[instance] = "__dead__"
+
+		if typeof(cleanup) == "function" then
+			task.spawn(cleanup)
+		end
+	end
+
+	local function OnAncestryChanged(instance: Instance)
+		if IsGoodAncestor(instance) then
+			if instances[instance] == "__dead__" then
+				AttemptStartup(instance)
+			end
+		else
+			AttemptCleanup(instance)
+		end
+	end
+
+	local function OnInstanceAdded(instance: Instance)
+		if not onInstAddedConn.Connected then
+			return
+		end
+		if instances[instance] ~= nil then
+			return
+		end
+
+		instances[instance] = "__dead__"
+
+		ancestryConn[instance] = instance.AncestryChanged:Connect(function()
+			OnAncestryChanged(instance)
+		end)
+		OnAncestryChanged(instance)
+	end
+
+	local function OnInstanceRemoved(instance: Instance)
+		AttemptCleanup(instance)
+
+		local ancestry = ancestryConn[instance]
+		if ancestry then
+			ancestry:Disconnect()
+			ancestryConn[instance] = nil
+		end
+
+		instances[instance] = nil
+	end
+
+	-- Hook up added/removed listeners for the given tag:
+	onInstAddedConn = CollectionService:GetInstanceAddedSignal(tag):Connect(OnInstanceAdded)
+	onInstRemovedConn = CollectionService:GetInstanceRemovedSignal(tag):Connect(OnInstanceRemoved)
+
+	-- Attempt to mark already-existing tagged instances right away:
+	task.defer(function()
+		if not onInstAddedConn.Connected then
+			return
+		end
+
+		for _, instance in CollectionService:GetTagged(tag) do
+			task.spawn(OnInstanceAdded, instance)
+		end
+	end)
+
+	-- Full observer cleanup function:
+	return function()
+		onInstAddedConn:Disconnect()
+		onInstRemovedConn:Disconnect()
+
+		-- Clear all instances:
+		local instance = next(instances)
+		while instance do
+			OnInstanceRemoved(instance)
+			instance = next(instances)
+		end
+	end
+end
+
+return observeTag]]></ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a17</UniqueId>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+				<Item class="Folder" referent="RBX6F959160CBBE40C0A93EF68935AF1576">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1684,9 +2505,9 @@ signal:Fire({"A", "B", "C"})]]></ProtectedString>
 						<string name="Name">sleitnick_signal@1.5.0</string>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
-						<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be3</UniqueId>
+						<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a18</UniqueId>
 					</Properties>
-					<Item class="ModuleScript" referent="RBX79484B61E49B41919B47FC4F047C981C">
+					<Item class="ModuleScript" referent="RBX0F34ABE98C394FFE9ECD971A3E21E8BD">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1694,7 +2515,7 @@ signal:Fire({"A", "B", "C"})]]></ProtectedString>
 							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
 							<Content name="LinkedSource"><null></null></Content>
 							<string name="Name">signal</string>
-							<string name="ScriptGuid">{2722996E-4070-43F1-AC8F-C95B35F146BD}</string>
+							<string name="ScriptGuid">{0FEA6C94-DBCB-4103-AF94-E07423E4E5EA}</string>
 							<ProtectedString name="Source"><![CDATA[-- -----------------------------------------------------------------------------
 --               Batched Yield-Safe Signal Implementation                     --
 -- This is a Signal class which has effectively identical behavior to a       --
@@ -2102,9 +2923,9 @@ return {
 }]]></ProtectedString>
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
-							<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be4</UniqueId>
+							<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a19</UniqueId>
 						</Properties>
-						<Item class="ModuleScript" referent="RBXD867190C813B470082728F664EFFBD69">
+						<Item class="ModuleScript" referent="RBX5B5B3D4A431D4205986A354039500A2C">
 							<Properties>
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -2112,7 +2933,7 @@ return {
 								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">init.spec</string>
-								<string name="ScriptGuid">{29082131-072A-48D9-B973-910976AF5A54}</string>
+								<string name="ScriptGuid">{540D69D6-675E-4046-9133-8274B4F6F286}</string>
 								<ProtectedString name="Source"><![CDATA[local function AwaitCondition(predicate, timeout)
 	local start = os.clock()
 	timeout = (timeout or 10)
@@ -2301,10 +3122,10 @@ return function()
 end]]></ProtectedString>
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
-								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be5</UniqueId>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a1a</UniqueId>
 							</Properties>
 						</Item>
-						<Item class="ModuleScript" referent="RBXD78381A4DA24498E8DEA49DA55BE59DA">
+						<Item class="ModuleScript" referent="RBX93A644D7E5C94DA0857160742F3298E2">
 							<Properties>
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -2312,7 +3133,7 @@ end]]></ProtectedString>
 								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">wally</string>
-								<string name="ScriptGuid">{B6DB6E36-F6C2-4FB4-9859-4715912A4294}</string>
+								<string name="ScriptGuid">{982A38DE-1460-4728-BCD6-47AD4F0D94A0}</string>
 								<ProtectedString name="Source"><![CDATA[return {
 	package = {
 		authors = {"Stephen Leitnick"},
@@ -2326,12 +3147,12 @@ end]]></ProtectedString>
 }]]></ProtectedString>
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
-								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be6</UniqueId>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a1b</UniqueId>
 							</Properties>
 						</Item>
 					</Item>
 				</Item>
-				<Item class="Folder" referent="RBX47ECB747B3884A9E87A9A30D06F989DD">
+				<Item class="Folder" referent="RBXE4318215DA014025BAD2B603703415BA">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -2340,9 +3161,9 @@ end]]></ProtectedString>
 						<string name="Name">sleitnick_table-util@1.2.1</string>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
-						<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be7</UniqueId>
+						<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a1c</UniqueId>
 					</Properties>
-					<Item class="ModuleScript" referent="RBX4411577405834E129E527FE3EEB83F14">
+					<Item class="ModuleScript" referent="RBXB8EF33434A7B4ABFAC3646C4C83456F1">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -2350,7 +3171,7 @@ end]]></ProtectedString>
 							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
 							<Content name="LinkedSource"><null></null></Content>
 							<string name="Name">table-util</string>
-							<string name="ScriptGuid">{B8619AFC-9FC7-4903-AE43-6555518F7632}</string>
+							<string name="ScriptGuid">{83CAEE0A-B3EA-4BDD-A4C8-32CB75D1A3F9}</string>
 							<ProtectedString name="Source"><![CDATA[--!strict
 
 -- TableUtil
@@ -3277,9 +4098,9 @@ TableUtil.DecodeJSON = DecodeJSON
 return TableUtil]]></ProtectedString>
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
-							<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be8</UniqueId>
+							<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a1d</UniqueId>
 						</Properties>
-						<Item class="ModuleScript" referent="RBX26DA77E848A04C6D9522BB1B114B8198">
+						<Item class="ModuleScript" referent="RBX3C036711B2404C72B8591444B89CBE6D">
 							<Properties>
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -3287,7 +4108,7 @@ return TableUtil]]></ProtectedString>
 								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">init.spec</string>
-								<string name="ScriptGuid">{F497C45C-F9CC-4313-8EAE-B60DE781572D}</string>
+								<string name="ScriptGuid">{525C10F8-9921-4F20-81F8-E797D769C269}</string>
 								<ProtectedString name="Source"><![CDATA[return function()
 	local TableUtil = require(script.Parent)
 
@@ -3717,10 +4538,10 @@ return TableUtil]]></ProtectedString>
 end]]></ProtectedString>
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
-								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004be9</UniqueId>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a1e</UniqueId>
 							</Properties>
 						</Item>
-						<Item class="ModuleScript" referent="RBXC5DC1A31A84B474BB7E164BC604AE9F7">
+						<Item class="ModuleScript" referent="RBXCF2F5AF47612429BA80A765E553E7AA6">
 							<Properties>
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -3728,7 +4549,7 @@ end]]></ProtectedString>
 								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">wally</string>
-								<string name="ScriptGuid">{A73EDEFE-8068-4574-95A6-EB3BA95951BF}</string>
+								<string name="ScriptGuid">{7E6A0271-12F3-49AA-A32E-269AD7BA2674}</string>
 								<ProtectedString name="Source"><![CDATA[return {
 	package = {
 		authors = {"Stephen Leitnick"},
@@ -3742,7 +4563,7 @@ end]]></ProtectedString>
 }]]></ProtectedString>
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
-								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004bea</UniqueId>
+								<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900005a1f</UniqueId>
 							</Properties>
 						</Item>
 					</Item>
@@ -3905,7 +4726,415 @@ end]]></ProtectedString>
 			<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900003dfe</UniqueId>
 		</Properties>
 	</Item>
+	<Item class="ProximityPromptService" referent="RBX7F83CFB51237431AA70F370356C42B50">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<bool name="Enabled">true</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<int name="MaxPromptsVisible">16</int>
+			<string name="Name">ProximityPromptService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">286f9e2715ccce1a062bb0a900004f85</UniqueId>
+		</Properties>
+	</Item>
 	<SharedStrings>
+		<SharedString md5="vnASrALObGdJIkbgPn3MTQ==">Q1NHUEhTBwAAAAK9rBk+Jjzqt8Xtar6UNpm3aMsZPQCA77RAWaa2gKToPEBwcrV00Rk9EAAA
+AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACAP0sAAAAEAAAACq6rvZXhHj9m
+zxK8GpKqvZXhHj9AfVU8AACQM2fUUz8AANCzIA+hvZXhHj+clPi8INWdvZXhHj860Qs9HK6r
+PZXhHj+WzhI8LJKqPZXhHj8QflW8MtWdPZXhHj9u0Qu9fV+GPZXhHj/3yFi9sHlLPZXhHj9W
+e4u9jJT4PJXhHj82D6G9Rs8SPJXhHj8grqu9YH1VvJXhHj8wkqq9QtELvZXhHj821Z29y8hY
+vZXhHj+BX4a9QHuLvZXhHj+4eUu9a1+GvZXhHj/DyFg9jHlLvZXhHj88e4s9RJT4vJXhHj8c
+D6E9ts4SvJXhHj8Grqs98H1VPJXhHj8Wkqo9ZtELPZXhHj8c1Z0978hYPZXhHj9nX4Y9UnuL
+PZXhHj+EeUs9Mg+hPZXhHj80lPg8igAAAAAAAAABAAAAAgAAAAAAAAACAAAAAwAAAAAAAAAD
+AAAADwAAAAAAAAAPAAAADgAAAAAAAAAOAAAADQAAAAAAAAANAAAADAAAAAAAAAAMAAAACwAA
+AAAAAAALAAAACgAAAAAAAAAKAAAACQAAAAAAAAAJAAAACAAAAAAAAAAIAAAABwAAAAAAAAAH
+AAAABgAAAAAAAAAGAAAABQAAAAAAAAAFAAAAGAAAAAAAAAAYAAAAFwAAAAAAAAAXAAAAFgAA
+AAAAAAAWAAAAFQAAAAAAAAAVAAAAFAAAAAAAAAAUAAAAEwAAAAAAAAATAAAAEgAAAAAAAAAS
+AAAAEQAAAAAAAAARAAAAEAAAAAAAAAAQAAAABAAAAAAAAAAEAAAAAQAAAAEAAAAEAAAAAgAA
+AAIAAAAFAAAABgAAAAIAAAAGAAAABwAAAAIAAAAHAAAACAAAAAIAAAAIAAAACQAAAAIAAAAJ
+AAAACgAAAAIAAAAKAAAACwAAAAIAAAALAAAADAAAAAIAAAAMAAAADQAAAAIAAAANAAAADgAA
+AAIAAAAOAAAADwAAAAIAAAAPAAAAAwAAAAIAAAAEAAAAEAAAAAIAAAAQAAAAEQAAAAIAAAAR
+AAAAEgAAAAIAAAASAAAAEwAAAAIAAAATAAAAFAAAAAIAAAAUAAAAFQAAAAIAAAAVAAAAFgAA
+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
+AAEAAAACAAAAAAAAAAIAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAADAAAAAAAAAAMAAAAI
+AAAAAAAAAAgAAAAJAAAAAAAAAAkAAAAEAAAAAAAAAAQAAAABAAAAAQAAAAQAAAAFAAAAAQAA
+AAUAAAAGAAAAAQAAAAYAAAACAAAAAwAAAAcAAAAIAAAABAAAAAkAAAAFAAAABQAAAAoAAAAL
+AAAABQAAAAsAAAAHAAAABQAAAAcAAAAGAAAABQAAAAkAAAAKAAAABwAAAAsAAAAIAAAACAAA
+AAsAAAAKAAAACAAAAAoAAAAJAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA
+AAAAAACAPyQAAAAEAAAAshaUPmjTU7+Smhq/shaUPmjTU7/wWBS/shaUPojb075kvdO+O4XL
+PmjTU7/Rewu/w6oNP2jTU78+56u+2V6zPojb074+56u+shaUPojb077Fr8m+NqCYPojb077e
+QNG+8tm/Pojb074+56u+B2IGP2jTU7/30di+shYUP2jTU78+56u+2x3VPoIp+L4+56u+PAAA
+AAAAAAABAAAABgAAAAAAAAAGAAAAAgAAAAAAAAACAAAAAwAAAAAAAAADAAAACQAAAAAAAAAJ
+AAAACgAAAAAAAAAKAAAABAAAAAAAAAAEAAAAAQAAAAEAAAAEAAAABQAAAAEAAAAFAAAABgAA
+AAIAAAAGAAAABQAAAAIAAAAFAAAACAAAAAIAAAAIAAAABwAAAAIAAAAHAAAAAwAAAAMAAAAH
+AAAACAAAAAMAAAAIAAAACQAAAAQAAAAKAAAACwAAAAQAAAALAAAACAAAAAQAAAAIAAAABQAA
+AAgAAAALAAAACQAAAAkAAAALAAAACgAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA
+AAAAAAAAAAAAgD8nAAAABAAAABSuqz5o01O/QiYUPxSuqz5o01O/RbkNP6DR2D5o01O/OWAG
+PxSuqz6USve+Z9TUPhRnFD9o01O/rPKTPhSuqz6I29O+y5qzPj98Cz9o01O/x4HLPjQssj6I
+29O+nUS5PhSuqz6I29O+ZhDAPmilGj9o01O/rPKTPgXXyT6I29O+rPKTPkbS0z6I29O+rPKT
+PqI/0T6I29O+bKOYPkIAAAAAAAAAAQAAAAQAAAAAAAAABAAAAAkAAAAAAAAACQAAAAYAAAAA
+AAAABgAAAAIAAAAAAAAAAgAAAAMAAAAAAAAAAwAAAAgAAAAAAAAACAAAAAUAAAAAAAAABQAA
+AAEAAAABAAAABQAAAAQAAAACAAAABgAAAAcAAAACAAAABwAAAAMAAAADAAAABwAAAAgAAAAE
+AAAABQAAAAoAAAAEAAAACgAAAAsAAAAEAAAACwAAAAkAAAAFAAAACAAAAAcAAAAFAAAABwAA
+AAwAAAAFAAAADAAAAAsAAAAFAAAACwAAAAoAAAAGAAAACQAAAAsAAAAGAAAACwAAAAwAAAAG
+AAAADAAAAAcAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIA/JAAA
+AAQAAAAE18m+iNvTvvjuk77TztO+iNvTvvjuk74TZxS/aNNTv/juk74Urqu+iNvTvq6Ys74U
+Q9G+iNvTvvSfmL5npRq/aNNTv/juk74Urqu+aNNTv/e4Db8Urqu+iNvTvqESwL4+fAu/aNNT
+v5aEy74Urqu+aNNTvyMoFL8Urqu+lEr3vj7Q1L6g0di+aNNTv4xfBr88AAAAAAAAAAEAAAAF
+AAAAAAAAAAUAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAHAAAAAAAAAAcAAAAEAAAAAAAA
+AAQAAAABAAAAAQAAAAQAAAAFAAAAAgAAAAUAAAAIAAAAAgAAAAgAAAALAAAAAgAAAAsAAAAJ
+AAAAAgAAAAkAAAAGAAAAAgAAAAYAAAADAAAAAwAAAAYAAAAJAAAAAwAAAAkAAAAKAAAAAwAA
+AAoAAAAHAAAABAAAAAcAAAAIAAAABAAAAAgAAAAFAAAABwAAAAoAAAALAAAABwAAAAsAAAAI
+AAAACQAAAAsAAAAKAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACA
+PzAAAAAEAAAARHdPPgAAKLaC+IC+2/+kPgAAKLYAiXG68JFhPgAAKLaC+IC+bQPUPjnW076C
++IC+7zT4PjnW074AiXG6vT+rPgAAKLYAiXG6QWmGPgAAKLYTyFi+ZeefPg/UIL6C+IC+0RHe
+PjnW076C+IC+bGsAPznW074AiXG6oNn/PjnW077KL6C97ZaqPgAAKLYes1W9nN2dPgAAKLZ+
+2Au+UA3hPjnW077qOni+uYL5PjnW077Trva9ksXsPjnW074gw1G+VAAAAAAAAAABAAAABQAA
+AAAAAAAFAAAACwAAAAAAAAALAAAADAAAAAAAAAAMAAAABgAAAAAAAAAGAAAAAgAAAAAAAAAC
+AAAABwAAAAAAAAAHAAAACAAAAAAAAAAIAAAAAwAAAAAAAAADAAAABAAAAAAAAAAEAAAAAQAA
+AAEAAAAEAAAACQAAAAEAAAAJAAAABQAAAAIAAAAGAAAABwAAAAMAAAAIAAAADQAAAAMAAAAN
+AAAADwAAAAMAAAAPAAAADgAAAAMAAAAOAAAACgAAAAMAAAAKAAAACQAAAAMAAAAJAAAABAAA
+AAUAAAAJAAAACgAAAAUAAAAKAAAACwAAAAYAAAAMAAAADQAAAAYAAAANAAAABwAAAAcAAAAN
+AAAACAAAAAoAAAAOAAAACwAAAAsAAAAOAAAADAAAAAwAAAAOAAAADwAAAAwAAAAPAAAADQAA
+ABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAgD85AAAABAAAAJVnAL/s
+0NO+AKxkOiQ1+L461tO+AKxkOk0/AL/s0NO+7IPZPEUQ8r7zTK++AKxkOk/+pL4AACi2AKxk
+Ojx3T74AACi2ufuAPrQA1L7s0NO+ufuAPq4S3r7s0NO+ufuAPkMK4b7s0NO+3EB4PhDG7L7s
+0NO+JsdRPhB/+b7s0NO+G7v2PaTZ/77s0NO+3CqgPQk+q74AACi2AKxkOiCZYb4AACi2ufuA
+Pvrln74Q1CC+ufuAPnlohr4AACi2csxYPhTgnb4AACi2BdkLPhOZqr4AACi27qNVPZVolb6J
+/vm9ufuAPmYAAAAAAAAAAQAAAAIAAAAAAAAAAgAAAAMAAAAAAAAAAwAAAAwAAAAAAAAADAAA
+AAQAAAAAAAAABAAAAAEAAAABAAAABAAAAAUAAAABAAAABQAAAAYAAAABAAAABgAAAAcAAAAB
+AAAABwAAAAgAAAABAAAACAAAAAkAAAABAAAACQAAAAoAAAABAAAACgAAAAsAAAABAAAACwAA
+AAIAAAACAAAACwAAAAMAAAADAAAACwAAAAwAAAAEAAAADAAAABEAAAAEAAAAEQAAABAAAAAE
+AAAAEAAAAA8AAAAEAAAADwAAAA0AAAAEAAAADQAAAAUAAAAFAAAADQAAABIAAAAFAAAAEgAA
+AA4AAAAFAAAADgAAAAcAAAAFAAAABwAAAAYAAAAHAAAADgAAAAgAAAAIAAAADgAAAA8AAAAI
+AAAADwAAABAAAAAIAAAAEAAAAAkAAAAJAAAAEAAAAAoAAAAKAAAAEAAAABEAAAAKAAAAEQAA
+AAsAAAALAAAAEQAAAAwAAAANAAAADwAAABIAAAAOAAAAEgAAAA8AAAAQAAAAAAAAAAAAAAAA
+AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIA/NgAAAAQAAAAAAAAAOdbTvs9sAD8AAAAAOdbT
+viY7+D4nK6A9OdbTvvbY/z7ejlU9AAAotpyZqj4AAAAAAAAotlQ+qz6PwoA+OdbTvpAj1D4A
+AAAAryZYvo90zz6PwoA+AAAoto7+Tz5GrvY9OdbTvux8+T7v2Qs+AAAotonhnT4AAAAAAAAo
+tvAApT6PwoA+OdbTvps13j6PwoA+AAAotgMSYj7mxlE+OdbTvtrE7D7SRHg+OdbTvpoJ4T6P
+woA+KRYfvrqhnz5Sz1g+AAAotjVnhj6PwoA+1UH3vT0/lT5gAAAAAAAAAAEAAAAFAAAAAAAA
+AAUAAAALAAAAAAAAAAsAAAAOAAAAAAAAAA4AAAANAAAAAAAAAA0AAAAIAAAAAAAAAAgAAAAC
+AAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAKAAAAAAAAAAoAAAAGAAAAAAAA
+AAYAAAABAAAAAQAAAAYAAAAHAAAAAQAAAAcAAAAFAAAAAgAAAAgAAAADAAAAAwAAAAkAAAAQ
+AAAAAwAAABAAAAAMAAAAAwAAAAwAAAAHAAAAAwAAAAcAAAAKAAAAAwAAAAoAAAAEAAAAAwAA
+AAgAAAAJAAAABQAAAAcAAAAMAAAABQAAAAwAAAARAAAABQAAABEAAAAPAAAABQAAAA8AAAAL
+AAAABgAAAAoAAAAHAAAACAAAAA0AAAAJAAAACQAAAA0AAAAOAAAACQAAAA4AAAAPAAAACQAA
+AA8AAAAQAAAACwAAAA8AAAAOAAAADAAAABAAAAARAAAADwAAABEAAAAQAAAAEAAAAAAAAAAA
+AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACAPzkAAAAEAAAAj8KAvgAAKLZQ70++AAAA
+AK8mWL6VdM++AAAAAAAAKLb3AKW+j8KAvgAAKLYWEmK+j8KAvjnW076VI9S+AAAAADnW074p
+O/i+AAAAAAAAKLZbPqu+Us9YvgAAKLY+Z4a+j8KAvtVB971FP5W+j8KAvjnW076gNd6+AAAA
+ADnW077magC/3o5VvQAAKLajmaq+AAAAAApEsr41R/O+79kLvgAAKLaR4Z2+j8KAvikWH77B
+oZ++0kR4vjnW076fCeG+JyugvTnW07752P++Rq72vTnW077wfPm+5sZRvjnW077exOy+ZgAA
+AAAAAAABAAAAAgAAAAAAAAACAAAABgAAAAAAAAAGAAAACwAAAAAAAAALAAAADQAAAAAAAAAN
+AAAABwAAAAAAAAAHAAAAAwAAAAAAAAADAAAACAAAAAAAAAAIAAAADgAAAAAAAAAOAAAACQAA
+AAAAAAAJAAAABAAAAAAAAAAEAAAABQAAAAAAAAAFAAAAAQAAAAEAAAAFAAAACgAAAAEAAAAK
+AAAADAAAAAEAAAAMAAAABgAAAAEAAAAGAAAAAgAAAAMAAAAHAAAACAAAAAQAAAAJAAAADwAA
+AAQAAAAPAAAAEgAAAAQAAAASAAAAEQAAAAQAAAARAAAAEAAAAAQAAAAQAAAACgAAAAQAAAAK
+AAAABQAAAAYAAAAMAAAACwAAAAcAAAANAAAADgAAAAcAAAAOAAAACAAAAAkAAAAOAAAADwAA
+AAoAAAAQAAAADAAAAAsAAAAMAAAAEAAAAAsAAAAQAAAAEQAAAAsAAAARAAAADQAAAA0AAAAR
+AAAAEgAAAA0AAAASAAAADwAAAA0AAAAPAAAADgAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA
+AAAAAAAAAAAAAAAAAAAAgD8qAAAABAAAALEWlL5o01O/ClsUPwAAAABo01O/7LwlP7EWlL5o
+01O/hpgaP7EWlL6I29O+t7HJPgAAAABo01O/7jgrPwAAAACI29O+gEL4PgKpeL5o01O/lRAh
+P52AOr6I29O+naHxPrEWlL7pnB6/Dx0CP7EWlL6I29O+5LvTPqn8kr1o01O/TqwrPwAAAACI
+29O+g28AP5JzXL2I29O+tsQAP7EWlL5HzAC/vMjoPkgAAAAAAAAAAQAAAAQAAAAAAAAABAAA
+AAoAAAAAAAAACgAAAAYAAAAAAAAABgAAAAIAAAAAAAAAAgAAAAgAAAAAAAAACAAAAA0AAAAA
+AAAADQAAAAkAAAAAAAAACQAAAAMAAAAAAAAAAwAAAAEAAAABAAAAAwAAAAUAAAABAAAABQAA
+AAsAAAABAAAACwAAAAQAAAACAAAABgAAAAcAAAACAAAABwAAAAgAAAADAAAACQAAAAcAAAAD
+AAAABwAAAAwAAAADAAAADAAAAAsAAAADAAAACwAAAAUAAAAEAAAACwAAAAoAAAAGAAAACgAA
+AAcAAAAHAAAACQAAAA0AAAAHAAAADQAAAAgAAAAHAAAACgAAAAwAAAAKAAAACwAAAAwAAAAQ
+AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIA/KgAAAAQAAAAAAAAAaNNT
+v+44K7+q/JI9aNNTv06sK78AAAAAaNNTv+y8Jb8AAAAAiNvTvoRvAL9wsHg+aNNTv5UQIb+U
+c1w9iNvTvrfEAL+egDo+iNvTvp+h8b6yFpQ+aNNTvwpbFL+yFpQ+iNvTviyuyb4AAAAAiNvT
+voFC+L6yFpQ+aNNTv4aYGr+yFpQ+iNvTvua7076yFpQ+SMwAv77I6L6yFpQ+6ZwevxAdAr9I
+AAAAAAAAAAEAAAAEAAAAAAAAAAQAAAAKAAAAAAAAAAoAAAAHAAAAAAAAAAcAAAACAAAAAAAA
+AAIAAAAJAAAAAAAAAAkAAAADAAAAAAAAAAMAAAABAAAAAQAAAAMAAAAFAAAAAQAAAAUAAAAG
+AAAAAQAAAAYAAAAEAAAAAgAAAAcAAAAIAAAAAgAAAAgAAAAJAAAAAwAAAAkAAAAIAAAAAwAA
+AAgAAAALAAAAAwAAAAsAAAAGAAAAAwAAAAYAAAAFAAAABAAAAAYAAAAKAAAABgAAAAsAAAAM
+AAAABgAAAAwAAAANAAAABgAAAA0AAAAKAAAABwAAAAoAAAANAAAABwAAAA0AAAAMAAAABwAA
+AAwAAAALAAAABwAAAAsAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA
+AAAAAACAPzMAAAAEAAAA3tDTPojb074865M+BNTJPojb074865M+bxYCPxp1Hr8865M+5Q7c
+Pojb074M0YQ+iT/4Pojb074AOF26u7wlP2jTU78AOF260GQUP2jTU78865M+aKIaP2jTU788
+65M+pBEhP2jTU78SrHg+bKDxPojb077LfTo+4WwAP4jb074AOF26RzcrP2jTU78AOF26Tqwr
+P2jTU7+g+JI9pO72Pojb075KuQ4+nX4AP4jb075AXCE8ZacAP4jb074wPhE9xMMAP4jb076k
+hVw9WgAAAAAAAAABAAAABgAAAAAAAAAGAAAABwAAAAAAAAAHAAAAAgAAAAAAAAACAAAAAwAA
+AAAAAAADAAAACQAAAAAAAAAJAAAADQAAAAAAAAANAAAAEAAAAAAAAAAQAAAADwAAAAAAAAAP
+AAAADgAAAAAAAAAOAAAACgAAAAAAAAAKAAAABAAAAAAAAAAEAAAAAQAAAAEAAAAEAAAABQAA
+AAEAAAAFAAAABgAAAAIAAAAHAAAACAAAAAIAAAAIAAAACQAAAAIAAAAJAAAAAwAAAAQAAAAK
+AAAACwAAAAQAAAALAAAABQAAAAUAAAALAAAADAAAAAUAAAAMAAAACAAAAAUAAAAIAAAABwAA
+AAUAAAAHAAAABgAAAAgAAAAMAAAADQAAAAgAAAANAAAACQAAAAoAAAAOAAAACwAAAAsAAAAO
+AAAADAAAAAwAAAAOAAAADwAAAAwAAAAPAAAAEAAAAAwAAAAQAAAADQAAABAAAAAAAAAAAAAA
+AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAgD8zAAAABAAAAIk/+L6I29O+AKxkOuFsAL+I
+29O+AKxkOru8Jb9o01O/AKxkOgTUyb6I29O++O6Tvp1+AL+I29O+0O0gvEc3K79o01O/AKxk
+OtBkFL9o01O/+O6Tvt7Q076I29O++O6TvmWnAL+I29O+mkURvU6sK79o01O/M/GSvWiiGr9o
+01O/+O6Tvm8WAr8adR6/+O6TvuUO3L6I29O+BtSEvsTDAL+I29O+GHNcvaQRIb9o01O/K7F4
+vqTu9r6I29O+fsAOvmyg8b6I29O+xH86vloAAAAAAAAAAQAAAAUAAAAAAAAABQAAAAIAAAAA
+AAAAAgAAAAMAAAAAAAAAAwAAAAcAAAAAAAAABwAAAAwAAAAAAAAADAAAABAAAAAAAAAAEAAA
+AA8AAAAAAAAADwAAAA0AAAAAAAAADQAAAAgAAAAAAAAACAAAAAQAAAAAAAAABAAAAAEAAAAB
+AAAABAAAAAUAAAACAAAABQAAAAkAAAACAAAACQAAAA4AAAACAAAADgAAAAoAAAACAAAACgAA
+AAYAAAACAAAABgAAAAMAAAADAAAABgAAAAoAAAADAAAACgAAAAsAAAADAAAACwAAAAcAAAAE
+AAAACAAAAAkAAAAEAAAACQAAAAUAAAAHAAAACwAAAAwAAAAIAAAADQAAAAkAAAAJAAAADQAA
+AA8AAAAJAAAADwAAAA4AAAAKAAAADgAAAAsAAAALAAAADgAAABAAAAALAAAAEAAAAAwAAAAO
+AAAADwAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIA/VAAA
+AAQAAACI8ZI8ONjTPhquK77jtng9ONjTPrkSIb4AAGAzONjTPs01K74AAGAzQuAeP247q70Q
+FBM8QuAeP4yiq73ytvg8QuAePyoHob3jiks9QuAeP3p6i70Mccs9ONjTPtl0C74AAGAzONjT
+Pro7Kz4AAGAzQuAeP+kkqz2ycIY9QuAeP8PKWL0rWwY+ONjTPrHQ2L0yoNU8ONjTPt6PKj64
+wlU8QuAePw15qj3M3Z09QuAeP6rbC7172R0+ONjTPmjQi70s64s9ONjTPorOHT6Z4gs9QuAe
+P+jInT1ho6o9QuAePykHVbwokio+ONjTPp1j1bxMwNg9ONjTPqRgBj5Y61g9QuAeP9NJhj0c
+rqs9QuAePwpEEjwYris+ONjTPhNxkjxOews+ONjTPiteyz3sg4s9QuAeP+hSSz3MF6E9QuAe
+P/o2+Dx7EyE+ONjTPt5veD2cAAAAAAAAAAEAAAAHAAAAAAAAAAcAAAALAAAAAAAAAAsAAAAP
+AAAAAAAAAA8AAAATAAAAAAAAABMAAAAXAAAAAAAAABcAAAAbAAAAAAAAABsAAAAYAAAAAAAA
+ABgAAAAUAAAAAAAAABQAAAAQAAAAAAAAABAAAAAMAAAAAAAAAAwAAAAIAAAAAAAAAAgAAAAC
+AAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAABAAAAAQAAAAQAAAAFAAAAAQAA
+AAUAAAAGAAAAAQAAAAYAAAAHAAAAAgAAAAgAAAAJAAAAAgAAAAkAAAADAAAAAwAAAAkAAAAN
+AAAAAwAAAA0AAAARAAAAAwAAABEAAAAVAAAAAwAAABUAAAAZAAAAAwAAABkAAAAaAAAAAwAA
+ABoAAAAWAAAAAwAAABYAAAASAAAAAwAAABIAAAAOAAAAAwAAAA4AAAAKAAAAAwAAAAoAAAAG
+AAAAAwAAAAYAAAAFAAAAAwAAAAUAAAAEAAAABgAAAAoAAAALAAAABgAAAAsAAAAHAAAACAAA
+AAwAAAANAAAACAAAAA0AAAAJAAAACgAAAA4AAAAPAAAACgAAAA8AAAALAAAADAAAABAAAAAR
+AAAADAAAABEAAAANAAAADgAAABIAAAAPAAAADwAAABIAAAATAAAAEAAAABQAAAARAAAAEQAA
+ABQAAAAVAAAAEgAAABYAAAAXAAAAEgAAABcAAAATAAAAFAAAABgAAAAZAAAAFAAAABkAAAAV
+AAAAFgAAABoAAAAXAAAAFwAAABoAAAAbAAAAGAAAABsAAAAZAAAAGQAAABsAAAAaAAAAEAAA
+AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACAP1QAAAAEAAAAAACQMzjY0z7G
+Oyu+8p/VvDjY0z7qjyq+OMJVvELgHj8leaq9AACQM0LgHj8BJau9AACQMzjY0z7BNSs+HOuL
+vTjY0z6Wzh2+eeILvULgHj8AyZ29AACQM0LgHj9WO6s9SPGSvDjY0z4Oris+cdHYvTjY0z6w
+YAa+OOtYvULgHj/rSYa9kBMTvELgHj90oqs9w7Z4vTjY0z6tEiE+RnsLvjjY0z5DXsu93IOL
+vULgHj8YU0u9srb4vELgHj8SB6E9/HDLvTjY0z7NdAs+w4pLvULgHj9ieos9cxMhvjjY0z4O
+cHi9vBehvULgHj9aN/i8I1sGvjjY0z6Z0Ng9onCGvULgHj+Tylg9EK4rvjjY0z5zcZK8DK6r
+vULgHj/KRBK8c9kdvjjY0z5Q0Is9vN2dvULgHj962ws9IJIqvjjY0z49Y9U8UaOqvULgHj9p
+BlU8nAAAAAAAAAABAAAAAgAAAAAAAAACAAAAAwAAAAAAAAADAAAABwAAAAAAAAAHAAAABAAA
+AAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAU
+AAAAGAAAAAAAAAAYAAAAGgAAAAAAAAAaAAAAFgAAAAAAAAAWAAAAEgAAAAAAAAASAAAADQAA
+AAAAAAANAAAACQAAAAAAAAAJAAAABQAAAAAAAAAFAAAAAQAAAAEAAAAFAAAABgAAAAEAAAAG
+AAAAAgAAAAIAAAAGAAAACgAAAAIAAAAKAAAADgAAAAIAAAAOAAAAEwAAAAIAAAATAAAAFwAA
+AAIAAAAXAAAAGwAAAAIAAAAbAAAAGQAAAAIAAAAZAAAAFQAAAAIAAAAVAAAAEQAAAAIAAAAR
+AAAADwAAAAIAAAAPAAAACwAAAAIAAAALAAAABwAAAAIAAAAHAAAAAwAAAAQAAAAHAAAACAAA
+AAUAAAAJAAAABgAAAAYAAAAJAAAACgAAAAcAAAALAAAACAAAAAgAAAALAAAADAAAAAkAAAAN
+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
+AAAAAAAAABEAAAALAAAAAAAAAAsAAAAHAAAAAAAAAAcAAAADAAAAAAAAAAMAAAABAAAAAQAA
+AAMAAAAEAAAAAgAAAAUAAAAGAAAAAwAAAAcAAAAMAAAAAwAAAAwAAAATAAAAAwAAABMAAAAN
+AAAAAwAAAA0AAAAIAAAAAwAAAAgAAAAEAAAABAAAAAgAAAANAAAABAAAAA0AAAASAAAABAAA
+ABIAAAAPAAAABAAAAA8AAAAOAAAABAAAAA4AAAAJAAAABQAAAAkAAAAKAAAABQAAAAoAAAAG
+AAAABwAAAAsAAAAMAAAACQAAAA4AAAAKAAAACgAAAA4AAAAPAAAACgAAAA8AAAAQAAAACwAA
+ABEAAAASAAAACwAAABIAAAATAAAACwAAABMAAAAMAAAADQAAABMAAAASAAAADwAAABIAAAAQ
+AAAAEAAAABIAAAAUAAAAEQAAABQAAAASAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA
+AAAAAAAAAAAAAACAPzwAAAAEAAAAyMWAvjnW0740PN6+yMWAvjnW076cJNS+taKivjnW074/
+ksm+yMWAvikWH77ulp++yMWAvgAAKLY7A1C+BP6kvgAAKLYAg1k6PoLQvtmKXb4Ag1k6Jjj4
+vjnW074Ag1k6JDrRvjnW075KnZi+i4KLvgAAKLbikEu+yMWAvtVB973KNpW+yMWAvgAAKLZp
+BGK+PD6rvgAAKLYAg1k6OWgAvznW074Ag1k6XprxvjnW076Mmzq+GxmhvgAAKLbAy/i9vRHy
+vqRHr74Ag1k6YbKrvgAAKLbEQxO9j8IAvznW076crVy9+HkAvznW075QeyG8bAAAAAAAAAAB
+AAAABwAAAAAAAAAHAAAADQAAAAAAAAANAAAAEwAAAAAAAAATAAAAEgAAAAAAAAASAAAADgAA
+AAAAAAAOAAAACAAAAAAAAAAIAAAAAgAAAAAAAAACAAAAAwAAAAAAAAADAAAACgAAAAAAAAAK
+AAAACwAAAAAAAAALAAAABAAAAAAAAAAEAAAAAQAAAAEAAAAEAAAABQAAAAEAAAAFAAAABgAA
+AAEAAAAGAAAABwAAAAIAAAAIAAAACQAAAAIAAAAJAAAACgAAAAIAAAAKAAAAAwAAAAQAAAAL
+AAAACQAAAAQAAAAJAAAADwAAAAQAAAAPAAAAEQAAAAQAAAARAAAADAAAAAQAAAAMAAAABQAA
+AAUAAAAMAAAAEAAAAAUAAAAQAAAADQAAAAUAAAANAAAABwAAAAUAAAAHAAAABgAAAAgAAAAO
+AAAACQAAAAkAAAALAAAACgAAAAkAAAAOAAAADwAAAAwAAAARAAAAEgAAAAwAAAASAAAAEAAA
+AA0AAAAQAAAAEwAAAA4AAAASAAAADwAAAA8AAAASAAAAEQAAABAAAAASAAAAEwAAAA==</SharedString>
 		<SharedString md5="yuZpQdnvvUBOTYh1jqZ2cA=="></SharedString>
 	</SharedStrings>
 </roblox>
