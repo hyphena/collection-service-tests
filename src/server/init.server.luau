@@ -35,3 +35,14 @@ print(tagged_instances_B) --> {}
 print(tagged_instances_A[1])      --> instance0
 print(tagged_instances_A[1].Name) --> "instance0"
 
+
+-- :RemoveTag()
+-- Removes a given tag from an instance :P
+CollectionService:AddTag(instance0, "Tag_A")
+CollectionService:AddTag(instance0, "Tag_B")
+
+print(CollectionService:GetTags(instance0)) --> {"Tag_A", "Tag_B"}
+
+CollectionService:RemoveTag(instance0, "Tag_A")
+
+print(CollectionService:GetTags(instance0)) --> {"Tag_B"}
